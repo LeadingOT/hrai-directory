@@ -1,0 +1,38 @@
+# HRAI.tools
+
+> A comprehensive directory of AI tools for human resources professionals. Compare features, pricing, and reviews for recruiting, onboarding, performance management, payroll, employee engagement, workforce analytics, and learning & development AI tools.
+
+## Categories
+
+- [Recruiting & Hiring](/category/recruiting-&-hiring): AI tools for sourcing, screening, and hiring top talent
+- [Onboarding](/category/onboarding): AI tools for automating new hire onboarding experiences
+- [Performance Management](/category/performance-management): AI tools for reviews, feedback, and goal tracking
+- [Payroll & Benefits](/category/payroll-&-benefits): AI-powered payroll processing and benefits administration
+- [Employee Engagement](/category/employee-engagement): AI tools for surveys, feedback, and engagement analytics
+- [Workforce Analytics](/category/workforce-analytics): AI platforms for people analytics and workforce planning
+- [Learning & Development](/category/learning-&-development): AI tools for training, upskilling, and knowledge management
+- [HR Administration](/category/hr-administration): AI tools for core HR operations and compliance
+
+## Comparison Guides
+
+- [Best AI Recruiting Tools](/best/best-ai-recruiting-tools): Top hiring and talent acquisition AI software for 2026
+- [Best AI Onboarding Tools](/best/best-ai-onboarding-tools): Automate new hire experiences with AI
+- [Best AI Payroll Tools](/best/best-ai-payroll-tools): AI-powered payroll and benefits platforms
+- [Best AI Performance Management Tools](/best/best-ai-performance-management-tools): Reviews, feedback, and goal-tracking AI software
+- [Best AI Employee Engagement Tools](/best/best-ai-employee-engagement-tools): Surveys, feedback, and engagement analytics
+
+## All Tools
+
+15Five, BambooHR, Betterworks, Click Boarding, Cornerstone OnDemand, Culture Amp, Deel, Docebo, Eightfold AI, Enboarder, Engagedly, Greenhouse, Gusto, HireVue, HR Acuity, Humanly, Lattice, Leapsome, Nava Benefits, Paradox (Olivia), Paycor, Peoplebox, Personio, Phenom, Praisidio, Rippling, SAP SuccessFactors, ServiceNow HR Service Delivery, Staffbase, Talmundo, TINYpulse, Visier, Workable, Workday
+
+## Key Facts
+
+- 34 AI tools reviewed and compared
+- 8 categories covering all HR workflows
+- 5 in-depth comparison guides
+- Updated February 2026
+- Independent reviews — not sponsored
+
+## Sitemap
+
+- [Sitemap](/sitemap-index.xml)
