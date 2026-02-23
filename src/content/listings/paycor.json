@@ -1,0 +1,16 @@
+{
+  "name": "Paycor",
+  "slug": "paycor",
+  "tagline": "AI-enhanced HCM platform with unified payroll and HR tools",
+  "description": "Paycor is a human capital management platform built for small to mid-sized businesses that want to modernize their HR and payroll operations. Its AI capabilities include predictive analytics for turnover, automated payroll processing, intelligent recruiting, and workforce management optimization. Paycor unifies payroll, HR, benefits, talent management, and workforce management into a single platform.",
+  "category": "Payroll & Benefits",
+  "subcategory": "HCM",
+  "url": "https://www.paycor.com",
+  "pricing": {"model": "paid", "startingPrice": "$99/mo + $6/employee"},
+  "features": ["AI-powered payroll", "Predictive turnover analytics", "Recruiting and ATS", "Benefits administration", "Time and scheduling", "Learning management", "Compensation planning", "Tax compliance"],
+  "pros": ["Comprehensive all-in-one platform", "Strong payroll features", "Good analytics and reporting", "Responsive customer support"],
+  "cons": ["Interface can feel dated", "Implementation takes time", "Add-on pricing for some features"],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-23",
+  "tags": ["hcm", "payroll", "benefits", "workforce-management", "smb"]
+}

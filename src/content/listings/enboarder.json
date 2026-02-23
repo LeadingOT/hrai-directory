@@ -1,0 +1,16 @@
+{
+  "name": "Enboarder",
+  "slug": "enboarder",
+  "tagline": "AI-powered onboarding experience platform for new hire success",
+  "description": "Enboarder is a people activation platform that uses AI and workflow automation to create exceptional onboarding experiences. It goes beyond checklists to orchestrate personalized journeys that connect new hires with their managers, buddies, and teams. Enboarder's AI-driven nudges ensure the right actions happen at the right time during preboarding, onboarding, and transitions.",
+  "category": "Onboarding",
+  "subcategory": "Experience Platform",
+  "url": "https://enboarder.com",
+  "pricing": {"model": "paid", "startingPrice": "$10,000/yr"},
+  "features": ["AI-driven onboarding workflows", "Preboarding automation", "Manager nudges", "Buddy system tools", "Multi-channel communications", "Crossboarding support", "Offboarding workflows", "Analytics and insights"],
+  "pros": ["Excellent experience design", "Strong manager enablement", "Good for complex onboarding", "Multi-transition support"],
+  "cons": ["Premium pricing", "Focused mainly on onboarding", "Requires content investment upfront"],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-23",
+  "tags": ["onboarding", "employee-experience", "preboarding", "workflows", "manager-enablement"]
+}

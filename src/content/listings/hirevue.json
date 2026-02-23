@@ -1,0 +1,16 @@
+{
+  "name": "HireVue",
+  "slug": "hirevue",
+  "tagline": "AI-powered video interviewing and assessment platform",
+  "description": "HireVue combines video interviewing with AI-driven assessments to help companies identify top talent faster. Its science-backed assessment models evaluate candidates on job-relevant competencies through structured video interviews, game-based assessments, and coding challenges. HireVue's AI helps reduce bias and predict on-the-job performance more accurately than traditional interviews.",
+  "category": "Recruiting & Hiring",
+  "subcategory": "Assessments",
+  "url": "https://www.hirevue.com",
+  "pricing": {"model": "paid", "startingPrice": "$35,000/yr"},
+  "features": ["AI video assessments", "Game-based evaluations", "Coding assessments", "Structured interview builder", "Bias auditing tools", "Candidate ranking", "ATS integrations", "Multi-language support"],
+  "pros": ["Science-backed assessment models", "Reduces time-to-hire significantly", "Strong bias mitigation", "Flexible assessment types"],
+  "cons": ["High entry price", "Some candidates find video interviews impersonal", "Requires internet access"],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-23",
+  "tags": ["recruiting", "video-interviews", "assessments", "ai-screening", "talent-evaluation"]
+}

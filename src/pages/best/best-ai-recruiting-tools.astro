@@ -1,0 +1,105 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import { getCollection } from 'astro:content';
+
+const allListings = await getCollection('listings');
+const tools = allListings
+  .filter((l) => l.data.category === 'Recruiting & Hiring')
+  .sort((a, b) => (b.data.rating || 0) - (a.data.rating || 0));
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Best AI Recruiting Tools for 2026',
+  description: 'Compare the top AI-powered recruiting and hiring tools. Expert reviews of ATS, sourcing, screening, and interview platforms.',
+  datePublished: '2026-02-23',
+  dateModified: '2026-02-23',
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What is the best AI recruiting tool in 2026?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Paradox (Olivia) leads for high-volume hiring with its conversational AI, while Greenhouse excels for structured hiring. Eightfold AI is best for talent intelligence and skills-based hiring. The right choice depends on your hiring volume and complexity.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'How does AI improve the recruiting process?',
+      acceptedAnswer: { '@type': 'Answer', text: 'AI improves recruiting by automating resume screening, matching candidates to jobs based on skills, scheduling interviews via chatbots, reducing unconscious bias, writing job descriptions, and providing analytics on hiring funnel performance.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Can AI recruiting tools reduce hiring bias?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes, tools like Greenhouse, Eightfold AI, and Humanly include bias-reduction features such as blind screening, structured interviews, diverse slate requirements, and bias auditing. However, AI tools must be regularly audited to ensure they don\'t perpetuate existing biases in training data.' }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Best AI Recruiting Tools for 2026 - Compare Top Hiring Software"
+  description="Compare the best AI-powered recruiting tools for 2026. Expert reviews of Paradox, Greenhouse, Eightfold AI, HireVue, Workable, and more. Find the right hiring software."
+  schema={schema}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <article class="max-w-4xl mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold mb-4">Best AI Recruiting Tools for 2026</h1>
+    <p class="text-lg text-gray-600 mb-2">Last updated: February 23, 2026</p>
+    <p class="text-gray-700 mb-8 text-lg leading-relaxed">
+      AI is revolutionizing how companies find and hire talent. From conversational chatbots that screen candidates 24/7 to deep learning engines that match skills to opportunities, today's AI recruiting tools dramatically reduce time-to-hire while improving candidate quality and diversity. We've reviewed the top AI recruiting platforms to help you choose the right solution for your hiring needs.
+    </p>
+
+    <nav class="bg-gray-50 rounded-lg p-6 mb-10">
+      <h2 class="font-semibold mb-3">Quick Picks</h2>
+      <ul class="space-y-2 text-sm">
+        <li><strong>Best for high-volume hiring:</strong> <a href="/listing/paradox" class="text-blue-600 hover:underline">Paradox (Olivia)</a></li>
+        <li><strong>Best for structured hiring:</strong> <a href="/listing/greenhouse" class="text-blue-600 hover:underline">Greenhouse</a></li>
+        <li><strong>Best for talent intelligence:</strong> <a href="/listing/eightfold-ai" class="text-blue-600 hover:underline">Eightfold AI</a></li>
+        <li><strong>Best for video assessments:</strong> <a href="/listing/hirevue" class="text-blue-600 hover:underline">HireVue</a></li>
+        <li><strong>Best for SMBs:</strong> <a href="/listing/workable" class="text-blue-600 hover:underline">Workable</a></li>
+      </ul>
+    </nav>
+
+    <h2 class="text-2xl font-bold mb-4">How We Evaluated</h2>
+    <p class="text-gray-700 mb-8">We assessed each tool on AI capability strength, ease of use, integration ecosystem, pricing value, bias mitigation features, and customer reviews from verified users. Our ratings reflect overall value for HR teams of varying sizes.</p>
+
+    <h2 class="text-2xl font-bold mb-6">Top AI Recruiting Tools Compared</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+      {tools.map((listing) => (
+        <ListingCard {...listing.data} />
+      ))}
+    </div>
+
+    <h2 class="text-2xl font-bold mb-4">Key Features to Look For</h2>
+    <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-10">
+      <li><strong>AI candidate matching:</strong> Algorithms that go beyond keyword matching to understand skills, experience, and potential</li>
+      <li><strong>Automated screening:</strong> Chatbots or assessments that qualify candidates before recruiter involvement</li>
+      <li><strong>Bias reduction:</strong> Tools that actively identify and mitigate hiring bias</li>
+      <li><strong>Interview scheduling:</strong> AI that coordinates across calendars and time zones</li>
+      <li><strong>Analytics:</strong> Pipeline metrics, source effectiveness, and time-to-hire tracking</li>
+    </ul>
+
+    <section class="bg-gray-50 rounded-lg p-6">
+      <h2 class="text-xl font-bold mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-semibold">What is the best AI recruiting tool in 2026?</h3>
+          <p class="text-gray-600 mt-1">Paradox leads for high-volume hiring, Greenhouse for structured hiring, and Eightfold AI for talent intelligence. The right choice depends on your hiring volume and needs.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">How does AI improve the recruiting process?</h3>
+          <p class="text-gray-600 mt-1">AI automates resume screening, matches candidates by skills, schedules interviews via chatbots, reduces bias, generates job descriptions, and provides hiring funnel analytics.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">Can AI recruiting tools reduce hiring bias?</h3>
+          <p class="text-gray-600 mt-1">Yes, tools like Greenhouse and Humanly include bias-reduction features. However, AI must be regularly audited to avoid perpetuating biases from training data.</p>
+        </div>
+      </div>
+    </section>
+  </article>
+</BaseLayout>

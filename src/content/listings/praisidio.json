@@ -1,0 +1,16 @@
+{
+  "name": "Praisidio",
+  "slug": "praisidio",
+  "tagline": "AI people analytics that predicts and prevents employee turnover",
+  "description": "Praisidio is an AI-powered people analytics platform focused on predicting and preventing employee attrition. Its machine learning models analyze workforce signals to identify flight risks months in advance and recommend targeted retention actions. Praisidio is 100x faster than manual analytics, provides real-time dashboards, and integrates with existing HRIS systems in under a day.",
+  "category": "Workforce Analytics",
+  "subcategory": "Retention Analytics",
+  "url": "https://www.praisidio.com",
+  "pricing": {"model": "paid", "startingPrice": "$5/employee/mo"},
+  "features": ["AI attrition prediction", "Retention action recommendations", "Real-time dashboards", "Flight risk scoring", "Manager alerts", "Workforce segmentation", "Quick HRIS integration", "ROI tracking"],
+  "pros": ["Extremely fast setup", "Strong prediction accuracy", "Actionable recommendations", "Cost-effective"],
+  "cons": ["Focused mainly on retention", "Newer company", "Limited non-analytics features"],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-23",
+  "tags": ["people-analytics", "attrition-prediction", "retention", "workforce-analytics", "dashboard"]
+}

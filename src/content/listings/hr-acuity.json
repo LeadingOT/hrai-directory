@@ -1,0 +1,16 @@
+{
+  "name": "HR Acuity",
+  "slug": "hr-acuity",
+  "tagline": "AI-powered employee relations case management platform",
+  "description": "HR Acuity is the only technology platform built specifically for employee relations and investigations management. Its AI features help reduce bias in case outcomes, ensure consistent documentation, predict risk patterns, and surface insights from employee relations data. HR Acuity's AI is built on deep employee relations expertise and keeps decision-making firmly in human hands.",
+  "category": "HR Administration",
+  "subcategory": "Employee Relations",
+  "url": "https://www.hracuity.com",
+  "pricing": {"model": "enterprise"},
+  "features": ["AI case analysis", "Bias reduction tools", "Investigation management", "Consistent documentation", "Risk pattern detection", "Reporting and analytics", "Compliance tracking", "Benchmarking"],
+  "pros": ["Purpose-built for ER", "Strong bias reduction", "Excellent documentation tools", "Data never used to train AI"],
+  "cons": ["Narrow focus area", "Enterprise pricing", "Requires ER maturity to maximize value"],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-23",
+  "tags": ["employee-relations", "investigations", "compliance", "bias-reduction", "case-management"]
+}

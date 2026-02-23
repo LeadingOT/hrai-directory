@@ -1,0 +1,16 @@
+{
+  "name": "Deel",
+  "slug": "deel",
+  "tagline": "AI-powered global payroll and compliance for distributed teams",
+  "description": "Deel is a global payroll and compliance platform that uses AI to simplify hiring and paying workers in 150+ countries. Its intelligent compliance engine automatically handles local labor laws, tax obligations, and contract requirements for both employees and contractors. Deel's AI-powered features include automated contract generation, instant payment processing, and compliance monitoring across jurisdictions.",
+  "category": "Payroll & Benefits",
+  "subcategory": "Global Payroll",
+  "url": "https://www.deel.com",
+  "pricing": {"model": "freemium", "startingPrice": "$49/contractor/mo"},
+  "features": ["Global payroll in 150+ countries", "AI compliance monitoring", "Automated contract generation", "EOR services", "Contractor management", "Instant payments", "Tax document management", "HRIS integration"],
+  "pros": ["Best-in-class global coverage", "Fast contractor onboarding", "Strong compliance automation", "Free HRIS tier available"],
+  "cons": ["Can be expensive per contractor", "EOR costs add up", "Some country-specific limitations"],
+  "rating": 4.6,
+  "lastUpdated": "2026-02-23",
+  "tags": ["global-payroll", "compliance", "contractors", "eor", "remote-work"]
+}

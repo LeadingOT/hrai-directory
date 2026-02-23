@@ -1,0 +1,16 @@
+{
+  "name": "Staffbase",
+  "slug": "staffbase",
+  "tagline": "AI-native employee communications and engagement platform",
+  "description": "Staffbase is an AI-native employee experience platform that helps HR teams improve internal communications, onboarding, and engagement at scale. Its AI capabilities support content creation, multi-language translation, personalization, sentiment analysis, and engagement analytics. Staffbase is designed to reach every employee—including frontline and deskless workers—through mobile apps, email, intranet, and digital signage.",
+  "category": "Employee Engagement",
+  "subcategory": "Internal Communications",
+  "url": "https://staffbase.com",
+  "pricing": {"model": "enterprise"},
+  "features": ["AI content generation", "Multi-channel distribution", "Employee app", "Intranet builder", "Email campaigns", "Sentiment analysis", "Translation support", "Analytics dashboard"],
+  "pros": ["Excellent for frontline workers", "Strong multi-channel reach", "Good AI content tools", "Enterprise-grade security"],
+  "cons": ["Enterprise pricing only", "Complex for smaller teams", "Some features need configuration"],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-23",
+  "tags": ["employee-engagement", "internal-comms", "frontline", "content-creation", "mobile"]
+}

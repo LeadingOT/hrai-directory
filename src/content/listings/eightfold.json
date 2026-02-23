@@ -1,0 +1,16 @@
+{
+  "name": "Eightfold AI",
+  "slug": "eightfold-ai",
+  "tagline": "Talent intelligence platform powered by deep learning",
+  "description": "Eightfold AI uses deep learning to match people with opportunities across the entire talent lifecycle. Its Talent Intelligence Platform analyzes over a billion talent profiles to power recruiting, internal mobility, workforce planning, and DEI initiatives. Eightfold's AI understands skills adjacencies and career trajectories to identify hidden talent and predict future potential.",
+  "category": "Recruiting & Hiring",
+  "subcategory": "Talent Intelligence",
+  "url": "https://eightfold.ai",
+  "pricing": {"model": "enterprise"},
+  "features": ["Deep learning talent matching", "Skills-based hiring", "Internal mobility marketplace", "Workforce planning", "DEI analytics", "Talent calibration", "Career pathing", "Project staffing"],
+  "pros": ["Powerful AI matching engine", "Excellent for internal mobility", "Strong DEI capabilities", "Handles massive talent pools"],
+  "cons": ["Enterprise-only pricing", "Complex implementation", "Requires significant data for best results"],
+  "rating": 4.5,
+  "lastUpdated": "2026-02-23",
+  "tags": ["talent-intelligence", "recruiting", "internal-mobility", "skills", "deep-learning"]
+}

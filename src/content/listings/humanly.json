@@ -1,0 +1,16 @@
+{
+  "name": "Humanly",
+  "slug": "humanly",
+  "tagline": "Conversational AI for equitable and efficient hiring",
+  "description": "Humanly is a conversational AI platform designed to make hiring more efficient and equitable. Its AI chatbot automates candidate screening, scheduling, and communication while actively reducing bias in the hiring process. Humanly also provides AI-powered interview notes, sentiment analysis, and candidate insights to help recruiters make better decisions faster.",
+  "category": "Recruiting & Hiring",
+  "subcategory": "Conversational Recruiting",
+  "url": "https://www.humanly.io",
+  "pricing": {"model": "paid", "startingPrice": "$1,000/mo"},
+  "features": ["AI candidate screening", "Automated scheduling", "Bias-reduction algorithms", "Interview note generation", "Sentiment analysis", "Multi-channel chatbot", "ATS integration", "Analytics dashboard"],
+  "pros": ["Strong focus on equitable hiring", "Good AI screening accuracy", "Saves recruiter time", "Easy integration"],
+  "cons": ["Less known than larger competitors", "Limited to recruiting use case", "Pricing may be high for small teams"],
+  "rating": 4.2,
+  "lastUpdated": "2026-02-23",
+  "tags": ["recruiting", "conversational-ai", "bias-reduction", "screening", "scheduling"]
+}

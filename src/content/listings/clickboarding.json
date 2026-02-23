@@ -1,0 +1,16 @@
+{
+  "name": "Click Boarding",
+  "slug": "click-boarding",
+  "tagline": "Automated onboarding and employee lifecycle management platform",
+  "description": "Click Boarding is an employee lifecycle management platform that automates onboarding, offboarding, and every transition in between. Its AI-powered platform ensures compliance with I-9, E-Verify, and state-specific requirements while creating engaging employee experiences. Click Boarding integrates with major HCM systems to eliminate duplicate data entry and streamline new hire paperwork.",
+  "category": "Onboarding",
+  "subcategory": "Lifecycle Management",
+  "url": "https://www.clickboarding.com",
+  "pricing": {"model": "paid"},
+  "features": ["Automated onboarding workflows", "I-9 and E-Verify compliance", "Electronic forms and signatures", "Task management", "Offboarding automation", "HCM integrations", "Compliance tracking", "Analytics"],
+  "pros": ["Strong compliance automation", "Good HCM integrations", "Clean interface", "Handles full lifecycle"],
+  "cons": ["Pricing not transparent", "Limited engagement features", "Less AI-advanced than competitors"],
+  "rating": 4.1,
+  "lastUpdated": "2026-02-23",
+  "tags": ["onboarding", "compliance", "lifecycle", "i9", "offboarding"]
+}

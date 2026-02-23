@@ -1,0 +1,16 @@
+{
+  "name": "Talmundo",
+  "slug": "talmundo",
+  "tagline": "AI-enhanced onboarding platform for engaging new hire journeys",
+  "description": "Talmundo is a digital onboarding platform that uses AI to create interactive and engaging onboarding journeys. Its platform features gamified content, personalized learning paths, chatbot assistance, and automated task management. Talmundo helps organizations reduce time-to-productivity for new hires while ensuring consistent delivery of company culture and knowledge.",
+  "category": "Onboarding",
+  "subcategory": "Digital Onboarding",
+  "url": "https://talmundo.com",
+  "pricing": {"model": "paid", "startingPrice": "$8/user/mo"},
+  "features": ["Gamified onboarding journeys", "AI chatbot assistant", "Personalized content paths", "Task automation", "Multi-language support", "Mobile-first design", "Analytics dashboard", "Integration APIs"],
+  "pros": ["Engaging gamified experience", "Good for global teams", "Mobile-friendly", "Easy to set up"],
+  "cons": ["Smaller vendor", "Limited beyond onboarding", "Fewer enterprise features"],
+  "rating": 4.1,
+  "lastUpdated": "2026-02-23",
+  "tags": ["onboarding", "gamification", "mobile", "multilingual", "engagement"]
+}

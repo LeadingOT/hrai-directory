@@ -1,0 +1,16 @@
+{
+  "name": "Nava Benefits",
+  "slug": "nava-benefits",
+  "tagline": "AI-powered benefits brokerage platform for modern HR teams",
+  "description": "Nava Benefits combines AI technology with expert benefits advisors to help companies optimize their employee benefits programs. Nava HQ, its AI-powered platform, analyzes benefits data, benchmarks plans against industry standards, models cost scenarios, and provides employees with AI-assisted benefits guidance. The platform helps HR teams make data-driven benefits decisions that balance cost and employee satisfaction.",
+  "category": "Payroll & Benefits",
+  "subcategory": "Benefits Administration",
+  "url": "https://www.navabenefits.com",
+  "pricing": {"model": "paid"},
+  "features": ["AI benefits analysis", "Plan benchmarking", "Cost modeling", "Employee benefits guidance", "Enrollment support", "Compliance monitoring", "Vendor management", "Analytics dashboard"],
+  "pros": ["Expert advisors plus AI", "Strong benchmarking data", "Helps optimize costs", "Modern platform"],
+  "cons": ["Brokerage model may not fit all", "US-focused", "Pricing varies by company size"],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-23",
+  "tags": ["benefits", "brokerage", "cost-optimization", "benchmarking", "enrollment"]
+}

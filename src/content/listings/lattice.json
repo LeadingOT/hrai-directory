@@ -1,0 +1,16 @@
+{
+  "name": "Lattice",
+  "slug": "lattice",
+  "tagline": "AI-driven people management platform for performance and engagement",
+  "description": "Lattice is a people management platform that uses AI to connect performance management, employee engagement, compensation, and career development. Its AI features generate performance review summaries, identify engagement trends, recommend development goals, and surface actionable insights from employee feedback. Lattice helps HR leaders make data-driven people decisions.",
+  "category": "Performance Management",
+  "subcategory": "People Management",
+  "url": "https://lattice.com",
+  "pricing": {"model": "paid", "startingPrice": "$11/user/mo"},
+  "features": ["AI performance review summaries", "OKR and goal tracking", "Engagement surveys", "1:1 meeting tools", "Compensation management", "Career development tracks", "Analytics dashboards", "360-degree feedback"],
+  "pros": ["Excellent performance management", "Strong engagement tools", "Good AI-powered insights", "Clean user interface"],
+  "cons": ["Can get expensive with all modules", "Learning curve for admins", "Some features feel basic alone"],
+  "rating": 4.6,
+  "lastUpdated": "2026-02-23",
+  "tags": ["performance-management", "engagement", "okr", "feedback", "compensation"]
+}

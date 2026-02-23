@@ -1,0 +1,92 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import { getCollection } from 'astro:content';
+
+const allListings = await getCollection('listings');
+const tools = allListings
+  .filter((l) => l.data.category === 'Performance Management')
+  .sort((a, b) => (b.data.rating || 0) - (a.data.rating || 0));
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Best AI Performance Management Tools for 2026',
+  datePublished: '2026-02-23',
+  dateModified: '2026-02-23',
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What is the best AI performance management tool?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Lattice is the top overall choice for its comprehensive feature set including AI review summaries, OKRs, and engagement. 15Five is best for continuous feedback, Leapsome for European companies, and Peoplebox for OKR-focused teams.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'How does AI help with performance reviews?',
+      acceptedAnswer: { '@type': 'Answer', text: 'AI assists performance reviews by generating draft summaries from ongoing feedback and check-in data, identifying patterns in performance trends, suggesting development goals, reducing recency bias, and helping managers write more objective and constructive feedback.' }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Best AI Performance Management Tools for 2026 - Reviews & Feedback Software"
+  description="Compare the best AI performance management tools for 2026. Expert reviews of Lattice, 15Five, Leapsome, Peoplebox, and Betterworks for reviews, OKRs, and continuous feedback."
+  schema={schema}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <article class="max-w-4xl mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold mb-4">Best AI Performance Management Tools for 2026</h1>
+    <p class="text-lg text-gray-600 mb-2">Last updated: February 23, 2026</p>
+    <p class="text-gray-700 mb-8 text-lg leading-relaxed">
+      Modern performance management has evolved beyond annual reviews. AI-powered platforms now enable continuous feedback, automated review generation, real-time goal tracking, and data-driven development insights. Here are the best AI performance management tools to drive employee growth in 2026.
+    </p>
+
+    <nav class="bg-gray-50 rounded-lg p-6 mb-10">
+      <h2 class="font-semibold mb-3">Quick Picks</h2>
+      <ul class="space-y-2 text-sm">
+        <li><strong>Best overall:</strong> <a href="/listing/lattice" class="text-blue-600 hover:underline">Lattice</a></li>
+        <li><strong>Best for continuous feedback:</strong> <a href="/listing/15five" class="text-blue-600 hover:underline">15Five</a></li>
+        <li><strong>Best for European companies:</strong> <a href="/listing/leapsome" class="text-blue-600 hover:underline">Leapsome</a></li>
+        <li><strong>Best for OKR-focused teams:</strong> <a href="/listing/peoplebox" class="text-blue-600 hover:underline">Peoplebox</a></li>
+        <li><strong>Best for enterprise:</strong> <a href="/listing/betterworks" class="text-blue-600 hover:underline">Betterworks</a></li>
+      </ul>
+    </nav>
+
+    <h2 class="text-2xl font-bold mb-6">Top AI Performance Management Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+      {tools.map((listing) => (
+        <ListingCard {...listing.data} />
+      ))}
+    </div>
+
+    <h2 class="text-2xl font-bold mb-4">Essential Features</h2>
+    <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-10">
+      <li><strong>AI review generation:</strong> Auto-draft reviews from check-ins and feedback data</li>
+      <li><strong>OKR/Goal tracking:</strong> Align individual goals with company objectives</li>
+      <li><strong>Continuous feedback:</strong> Regular check-ins replacing annual review cycles</li>
+      <li><strong>Calibration:</strong> Ensure fair and consistent ratings across teams</li>
+      <li><strong>Development planning:</strong> AI-recommended growth paths and learning</li>
+    </ul>
+
+    <section class="bg-gray-50 rounded-lg p-6">
+      <h2 class="text-xl font-bold mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-semibold">What is the best AI performance management tool?</h3>
+          <p class="text-gray-600 mt-1">Lattice is the top overall pick. 15Five excels for continuous feedback, Leapsome for European companies, and Peoplebox for OKR-focused teams.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">How does AI help with performance reviews?</h3>
+          <p class="text-gray-600 mt-1">AI generates review drafts from ongoing data, identifies performance patterns, suggests goals, reduces bias, and helps managers write more constructive feedback.</p>
+        </div>
+      </div>
+    </section>
+  </article>
+</BaseLayout>

@@ -1,0 +1,16 @@
+{
+  "name": "SAP SuccessFactors",
+  "slug": "sap-successfactors",
+  "tagline": "Enterprise AI-powered HCM suite with Joule AI copilot",
+  "description": "SAP SuccessFactors is a comprehensive cloud HCM suite that leverages SAP's Joule AI copilot to transform HR operations. Its AI capabilities span recruiting, onboarding, performance management, learning, compensation, succession planning, and workforce analytics. Joule provides natural language interactions across the platform, helping HR teams and employees get answers, complete tasks, and make decisions faster.",
+  "category": "HR Administration",
+  "subcategory": "Enterprise HCM",
+  "url": "https://www.sap.com/products/hcm.html",
+  "pricing": {"model": "enterprise"},
+  "features": ["Joule AI copilot", "Core HR and payroll", "Recruiting and onboarding", "Performance and goals", "Learning management", "Compensation planning", "Succession planning", "Workforce analytics"],
+  "pros": ["Comprehensive enterprise suite", "Strong AI copilot", "Global scalability", "Deep analytics"],
+  "cons": ["Very expensive", "Complex to implement", "Requires SAP ecosystem knowledge"],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-23",
+  "tags": ["enterprise", "hcm", "sap", "ai-copilot", "global"]
+}

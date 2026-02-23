@@ -1,0 +1,16 @@
+{
+  "name": "15Five",
+  "slug": "15five",
+  "tagline": "AI-enhanced performance management focused on continuous feedback",
+  "description": "15Five is a performance management platform that uses AI to transform how managers and employees communicate about goals, feedback, and development. Its AI features include sentiment analysis of check-ins, automated performance review drafts, engagement survey insights, and coaching recommendations. The platform emphasizes continuous feedback over annual reviews to drive real-time performance improvement.",
+  "category": "Performance Management",
+  "subcategory": "Continuous Feedback",
+  "url": "https://www.15five.com",
+  "pricing": {"model": "paid", "startingPrice": "$4/user/mo"},
+  "features": ["Weekly check-ins with AI analysis", "OKR tracking", "AI review generation", "Engagement surveys", "1:1 meeting agendas", "High-five recognition", "Calibration tools", "Manager effectiveness analytics"],
+  "pros": ["Affordable pricing", "Great continuous feedback model", "Easy for employees to adopt", "Strong manager tools"],
+  "cons": ["Less comprehensive than full HCM platforms", "Analytics could be deeper", "Limited customization"],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-23",
+  "tags": ["performance-management", "feedback", "check-ins", "okr", "recognition"]
+}

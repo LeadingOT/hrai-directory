@@ -1,0 +1,16 @@
+{
+  "name": "Personio",
+  "slug": "personio",
+  "tagline": "AI-driven HR platform for European SMBs with full employee lifecycle coverage",
+  "description": "Personio is an all-in-one HR platform built for small and mid-sized European businesses. Its AI features automate payroll preparation, absence management, document handling, and recruiting workflows. Personio covers the entire employee lifecycle from recruiting and onboarding through performance management and offboarding, with strong compliance for European labor laws and GDPR.",
+  "category": "HR Administration",
+  "subcategory": "HR Platform",
+  "url": "https://www.personio.com",
+  "pricing": {"model": "paid", "startingPrice": "$3/employee/mo"},
+  "features": ["Automated payroll preparation", "Absence management", "Recruiting and ATS", "Onboarding workflows", "Document management", "Performance tracking", "Time tracking", "GDPR compliance"],
+  "pros": ["Excellent for European companies", "Very affordable", "Comprehensive feature set", "Strong GDPR compliance"],
+  "cons": ["Limited US payroll support", "Analytics less advanced", "Enterprise features still developing"],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-23",
+  "tags": ["hr-platform", "european", "payroll", "gdpr", "smb"]
+}

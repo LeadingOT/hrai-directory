@@ -1,0 +1,16 @@
+{
+  "name": "TINYpulse",
+  "slug": "tinypulse",
+  "tagline": "AI-driven employee pulse surveys and real-time feedback analytics",
+  "description": "TINYpulse provides real-time, AI-driven pulse surveys and employee feedback analytics that help HR teams quickly identify and act on workforce concerns. Its AI analyzes open-ended responses to detect sentiment trends, predict engagement risks, and surface emerging issues before they become problems. TINYpulse makes it easy to gather continuous feedback without survey fatigue.",
+  "category": "Employee Engagement",
+  "subcategory": "Pulse Surveys",
+  "url": "https://www.tinypulse.com",
+  "pricing": {"model": "paid", "startingPrice": "$5/user/mo"},
+  "features": ["AI sentiment analysis", "Pulse surveys", "Anonymous feedback", "Recognition tools", "Trend detection", "Manager dashboards", "Action planning", "Benchmarking"],
+  "pros": ["Quick and easy surveys", "Good sentiment analysis", "Helps detect issues early", "Affordable"],
+  "cons": ["Limited beyond engagement", "Analytics could be deeper", "Smaller feature set"],
+  "rating": 4.1,
+  "lastUpdated": "2026-02-23",
+  "tags": ["engagement", "pulse-surveys", "sentiment-analysis", "feedback", "recognition"]
+}

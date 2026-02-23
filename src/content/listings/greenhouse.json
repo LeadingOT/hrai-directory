@@ -1,0 +1,16 @@
+{
+  "name": "Greenhouse",
+  "slug": "greenhouse",
+  "tagline": "Structured hiring platform with AI-powered recruiting tools",
+  "description": "Greenhouse is a structured hiring platform that helps companies make better, more equitable hiring decisions. Its AI features include intelligent candidate sourcing, automated interview scheduling, resume parsing, and bias-reduction tools. Greenhouse's data-driven approach provides hiring analytics and pipeline insights to optimize every stage of the recruitment funnel.",
+  "category": "Recruiting & Hiring",
+  "subcategory": "Applicant Tracking",
+  "url": "https://www.greenhouse.com",
+  "pricing": {"model": "paid", "startingPrice": "$6,000/yr"},
+  "features": ["AI candidate sourcing", "Structured interview kits", "Automated scheduling", "DEI analytics and bias alerts", "Pipeline analytics", "Offer management", "400+ integrations", "Custom scorecards"],
+  "pros": ["Excellent structured hiring methodology", "Strong DEI features", "Rich integration ecosystem", "Great analytics"],
+  "cons": ["Premium pricing", "Can be complex to configure", "No built-in payroll"],
+  "rating": 4.6,
+  "lastUpdated": "2026-02-23",
+  "tags": ["recruiting", "ats", "hiring", "dei", "structured-hiring"]
+}

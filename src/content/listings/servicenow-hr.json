@@ -1,0 +1,16 @@
+{
+  "name": "ServiceNow HR Service Delivery",
+  "slug": "servicenow-hr",
+  "tagline": "AI-powered HR service management for enterprise case resolution",
+  "description": "ServiceNow HR Service Delivery uses agentic AI to automate HR case management, employee requests, onboarding tasks, and cross-functional workflows. Its AI-powered virtual agent handles common employee inquiries, routes complex cases to the right specialists, and provides self-service knowledge bases. The platform excels at orchestrating processes across HR, IT, and facilities departments.",
+  "category": "HR Administration",
+  "subcategory": "Service Delivery",
+  "url": "https://www.servicenow.com/products/hr-service-delivery.html",
+  "pricing": {"model": "enterprise"},
+  "features": ["AI virtual agent", "Case management automation", "Employee service center", "Knowledge management", "Onboarding orchestration", "Cross-department workflows", "Document management", "Analytics and reporting"],
+  "pros": ["Excellent for large enterprises", "Strong cross-department integration", "Powerful automation engine", "Mature AI capabilities"],
+  "cons": ["Very expensive", "Complex implementation", "Overkill for SMBs"],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-23",
+  "tags": ["enterprise", "service-delivery", "case-management", "virtual-agent", "automation"]
+}

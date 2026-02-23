@@ -1,0 +1,16 @@
+{
+  "name": "Rippling",
+  "slug": "rippling",
+  "tagline": "Unified HR, IT, and finance platform with powerful AI automation",
+  "description": "Rippling is an all-in-one workforce management platform that combines HR, IT, and finance into a single system. Its AI capabilities automate onboarding workflows, payroll processing, benefits administration, and compliance tracking. Rippling's intelligent engine connects every employee system—from payroll to device management—eliminating manual data entry and reducing errors across the entire employee lifecycle.",
+  "category": "HR Administration",
+  "subcategory": "Workforce Management",
+  "url": "https://www.rippling.com",
+  "pricing": {"model": "paid", "startingPrice": "$8/user/mo"},
+  "features": ["Automated onboarding workflows", "AI-powered payroll processing", "Benefits administration", "Device and app management", "Compliance automation", "Time and attendance tracking", "Global workforce support", "Custom reporting and analytics"],
+  "pros": ["Unified platform reduces tool sprawl", "Excellent automation capabilities", "Intuitive modern interface", "Strong integrations ecosystem"],
+  "cons": ["Pricing can add up with modules", "Overkill for very small teams", "Some advanced features require premium tiers"],
+  "rating": 4.7,
+  "lastUpdated": "2026-02-23",
+  "tags": ["hr-platform", "payroll", "onboarding", "workforce-management", "automation"]
+}

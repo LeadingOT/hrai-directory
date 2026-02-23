@@ -1,0 +1,16 @@
+{
+  "name": "Leapsome",
+  "slug": "leapsome",
+  "tagline": "AI-powered people enablement platform for performance and learning",
+  "description": "Leapsome is an all-in-one people enablement platform that uses AI to drive performance management, employee engagement, learning, and compensation. Its AI copilot helps write performance reviews, analyze survey results, set development goals, and create personalized learning paths. Leapsome connects the dots between engagement data, performance metrics, and business outcomes.",
+  "category": "Performance Management",
+  "subcategory": "People Enablement",
+  "url": "https://www.leapsome.com",
+  "pricing": {"model": "paid", "startingPrice": "$8/user/mo"},
+  "features": ["AI review copilot", "360-degree feedback", "Engagement surveys", "OKR management", "Learning paths", "Compensation management", "Meeting tools", "Competency frameworks"],
+  "pros": ["Comprehensive feature set", "Strong AI writing assistance", "Excellent goal management", "Good European data compliance"],
+  "cons": ["Can be complex to set up", "Mobile experience could improve", "Reporting could be more flexible"],
+  "rating": 4.5,
+  "lastUpdated": "2026-02-23",
+  "tags": ["performance-management", "engagement", "learning", "compensation", "okr"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Workday",
+  "slug": "workday",
+  "tagline": "Enterprise AI-powered human capital management platform",
+  "description": "Workday is a leading enterprise HCM platform that leverages machine learning across HR, finance, and planning. Its AI features include skills intelligence, talent optimization, workforce forecasting, and anomaly detection in payroll. Workday's ML models analyze workforce data to surface actionable insights on retention, performance trends, and organizational health.",
+  "category": "HR Administration",
+  "subcategory": "Enterprise HCM",
+  "url": "https://www.workday.com",
+  "pricing": {"model": "enterprise"},
+  "features": ["AI skills intelligence", "Workforce planning and forecasting", "Talent optimization", "Payroll anomaly detection", "Succession planning", "Learning management", "Advanced analytics dashboards", "Global compliance"],
+  "pros": ["Comprehensive enterprise solution", "Strong AI/ML capabilities", "Excellent workforce analytics", "Proven at scale"],
+  "cons": ["High cost for smaller organizations", "Complex implementation", "Steep learning curve"],
+  "rating": 4.5,
+  "lastUpdated": "2026-02-23",
+  "tags": ["enterprise", "hcm", "workforce-planning", "analytics", "payroll"]
+}

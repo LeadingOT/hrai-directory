@@ -1,0 +1,16 @@
+{
+  "name": "Paradox (Olivia)",
+  "slug": "paradox",
+  "tagline": "Conversational AI assistant that automates recruiting workflows",
+  "description": "Paradox's AI assistant Olivia automates the entire recruiting process through conversational AI. From screening candidates and scheduling interviews to answering FAQs and collecting documents, Olivia handles high-volume hiring tasks 24/7 via text, web chat, and WhatsApp. Paradox is particularly effective for hourly and frontline hiring where speed and candidate experience matter most.",
+  "category": "Recruiting & Hiring",
+  "subcategory": "Conversational AI",
+  "url": "https://www.paradox.ai",
+  "pricing": {"model": "enterprise"},
+  "features": ["Conversational AI screening", "Automated interview scheduling", "Multi-language support", "SMS and WhatsApp recruiting", "Document collection", "Career site chatbot", "High-volume hiring automation", "CRM integration"],
+  "pros": ["Dramatically speeds up hiring", "Excellent candidate experience", "24/7 availability", "Great for high-volume roles"],
+  "cons": ["Enterprise pricing only", "Best suited for high-volume hiring", "Less effective for specialized roles"],
+  "rating": 4.7,
+  "lastUpdated": "2026-02-23",
+  "tags": ["recruiting", "conversational-ai", "chatbot", "high-volume-hiring", "scheduling"]
+}

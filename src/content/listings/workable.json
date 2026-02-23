@@ -1,0 +1,16 @@
+{
+  "name": "Workable",
+  "slug": "workable",
+  "tagline": "AI-powered recruiting and HR software for growing companies",
+  "description": "Workable combines applicant tracking with AI-powered sourcing and HR management tools. Its AI features include automated candidate sourcing from 400M+ profiles, one-click job posting to 200+ boards, AI-assisted job descriptions, and intelligent candidate recommendations. Workable is designed for small to mid-sized businesses that need powerful recruiting without enterprise complexity.",
+  "category": "Recruiting & Hiring",
+  "subcategory": "ATS & HR",
+  "url": "https://www.workable.com",
+  "pricing": {"model": "paid", "startingPrice": "$149/mo"},
+  "features": ["AI candidate sourcing", "200+ job board posting", "AI job description generator", "Video interviews", "Employee referrals", "Onboarding tools", "E-signatures", "HR management suite"],
+  "pros": ["Affordable for SMBs", "Easy to set up and use", "Strong AI sourcing", "Combined recruiting and HR"],
+  "cons": ["Analytics could be deeper", "Limited customization on lower tiers", "Some features are add-ons"],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-23",
+  "tags": ["recruiting", "ats", "smb", "sourcing", "job-posting"]
+}

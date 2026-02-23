@@ -1,0 +1,16 @@
+{
+  "name": "Visier",
+  "slug": "visier",
+  "tagline": "AI-powered people analytics platform for data-driven HR decisions",
+  "description": "Visier is the leading people analytics platform that uses AI to turn workforce data into actionable insights. Its AI models predict attrition risk, identify compensation inequities, analyze workforce trends, and forecast future talent needs. Visier's natural language query engine lets HR leaders ask questions in plain English and get instant answers from their people data.",
+  "category": "Workforce Analytics",
+  "subcategory": "People Analytics",
+  "url": "https://www.visier.com",
+  "pricing": {"model": "enterprise"},
+  "features": ["AI attrition prediction", "Compensation analysis", "Natural language queries", "Workforce planning", "DEI analytics", "Benchmarking", "Pre-built analytics models", "Data integration hub"],
+  "pros": ["Best-in-class people analytics", "Intuitive natural language interface", "Strong predictive models", "Excellent benchmarking data"],
+  "cons": ["Enterprise pricing", "Requires clean data for best results", "Can be complex to implement"],
+  "rating": 4.6,
+  "lastUpdated": "2026-02-23",
+  "tags": ["people-analytics", "workforce-analytics", "prediction", "compensation", "dei"]
+}

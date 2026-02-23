@@ -1,0 +1,16 @@
+{
+  "name": "Phenom",
+  "slug": "phenom",
+  "tagline": "AI-powered talent experience platform for the entire employee journey",
+  "description": "Phenom is an intelligent talent experience platform that uses AI to personalize every interaction across the talent lifecycle. From career sites that adapt to each visitor, to AI-driven candidate matching, employee engagement tools, and recruiter productivity features, Phenom creates connected experiences for candidates, employees, recruiters, and managers.",
+  "category": "Recruiting & Hiring",
+  "subcategory": "Talent Experience",
+  "url": "https://www.phenom.com",
+  "pricing": {"model": "enterprise"},
+  "features": ["AI-personalized career sites", "Intelligent candidate matching", "Chatbot for candidates", "Internal mobility marketplace", "Employee experience tools", "Recruiter CRM", "Analytics and reporting", "Talent marketplace"],
+  "pros": ["Comprehensive talent experience", "Strong personalization engine", "Excellent career site tools", "Good internal mobility features"],
+  "cons": ["Enterprise pricing", "Full value requires multiple modules", "Implementation timeline can be long"],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-23",
+  "tags": ["talent-experience", "recruiting", "career-site", "personalization", "employee-experience"]
+}

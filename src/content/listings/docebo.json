@@ -1,0 +1,16 @@
+{
+  "name": "Docebo",
+  "slug": "docebo",
+  "tagline": "AI-powered learning platform that personalizes employee development",
+  "description": "Docebo is an enterprise learning management system powered by AI that personalizes the learning experience for every employee. Its AI features include auto-tagging content, personalized learning recommendations, skill gap analysis, virtual coaching, and AI-generated content. Docebo's deep learning algorithms match employees with relevant courses based on their role, skills, and career goals.",
+  "category": "Learning & Development",
+  "subcategory": "LMS",
+  "url": "https://www.docebo.com",
+  "pricing": {"model": "enterprise"},
+  "features": ["AI content recommendations", "Auto-tagging and organization", "Virtual coaching", "Skill gap analysis", "Social learning", "Content marketplace", "Compliance training", "Advanced analytics"],
+  "pros": ["Strong AI personalization", "Excellent content management", "Scalable for enterprises", "Good social learning features"],
+  "cons": ["Enterprise pricing", "Initial setup complexity", "Some features require add-ons"],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-23",
+  "tags": ["learning", "lms", "ai-recommendations", "skill-development", "training"]
+}

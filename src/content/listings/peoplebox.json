@@ -1,0 +1,16 @@
+{
+  "name": "Peoplebox",
+  "slug": "peoplebox",
+  "tagline": "AI-native OKR and performance management platform",
+  "description": "Peoplebox is an AI-native platform that unifies OKRs, performance management, employee engagement, and 1:1s into a single workflow. Its AI features auto-generate performance reviews from check-in data, analyze engagement trends, create OKR suggestions, and provide real-time coaching nudges. Peoplebox integrates deeply with Slack and Teams to meet employees where they work.",
+  "category": "Performance Management",
+  "subcategory": "OKR Platform",
+  "url": "https://www.peoplebox.ai",
+  "pricing": {"model": "paid", "startingPrice": "$7/user/mo"},
+  "features": ["AI performance reviews", "OKR management", "Engagement surveys", "1:1 meeting tools", "Business review dashboards", "Slack/Teams integration", "Calibration tools", "360 feedback"],
+  "pros": ["Strong OKR-performance connection", "Affordable pricing", "Great Slack integration", "AI-generated reviews save time"],
+  "cons": ["Newer platform, less mature", "Limited HR admin features", "Reporting still evolving"],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-23",
+  "tags": ["okr", "performance-management", "engagement", "ai-reviews", "slack"]
+}

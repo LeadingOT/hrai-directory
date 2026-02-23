@@ -1,0 +1,16 @@
+{
+  "name": "Gusto",
+  "slug": "gusto",
+  "tagline": "AI-powered payroll and benefits platform for small businesses",
+  "description": "Gusto is an intuitive payroll and HR platform designed for small businesses. Its AI capabilities automate payroll processing, tax calculations, compliance updates, and benefits administration. Gusto's intelligent system handles multi-state payroll, automatic tax filing, workers' comp, and provides employees with self-service access to pay stubs, tax forms, and benefits enrollment.",
+  "category": "Payroll & Benefits",
+  "subcategory": "Payroll",
+  "url": "https://gusto.com",
+  "pricing": {"model": "paid", "startingPrice": "$40/mo + $6/person"},
+  "features": ["Automated payroll processing", "Tax filing and compliance", "Benefits administration", "Workers comp management", "Employee self-service", "Time tracking", "Hiring and onboarding", "Financial wellness tools"],
+  "pros": ["Extremely user-friendly", "Excellent for small businesses", "Automated tax handling", "Great benefits marketplace"],
+  "cons": ["Limited for large companies", "Some features cost extra", "Phone support limited on basic plans"],
+  "rating": 4.6,
+  "lastUpdated": "2026-02-23",
+  "tags": ["payroll", "benefits", "small-business", "tax-filing", "compliance"]
+}

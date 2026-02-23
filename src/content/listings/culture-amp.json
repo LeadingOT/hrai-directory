@@ -1,0 +1,16 @@
+{
+  "name": "Culture Amp",
+  "slug": "culture-amp",
+  "tagline": "Employee experience platform with AI-powered people analytics",
+  "description": "Culture Amp is the leading employee experience platform that combines engagement surveys, performance management, and people analytics with AI-powered insights. Its machine learning models predict employee turnover risk, identify key engagement drivers, and generate actionable recommendations. Culture Amp's benchmarking data from thousands of companies provides context for your workforce metrics.",
+  "category": "Employee Engagement",
+  "subcategory": "Experience Platform",
+  "url": "https://www.cultureamp.com",
+  "pricing": {"model": "paid", "startingPrice": "$5/user/mo"},
+  "features": ["AI engagement analytics", "Turnover prediction", "Pulse surveys", "Performance reviews", "Goal tracking", "Skills coaching", "DEI analytics", "Industry benchmarking"],
+  "pros": ["Industry-leading engagement surveys", "Excellent analytics and insights", "Strong benchmarking data", "Science-backed methodology"],
+  "cons": ["Performance features less mature than dedicated tools", "Can be pricey for smaller orgs", "Survey fatigue risk without planning"],
+  "rating": 4.5,
+  "lastUpdated": "2026-02-23",
+  "tags": ["employee-engagement", "surveys", "analytics", "turnover-prediction", "culture"]
+}

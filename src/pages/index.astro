@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ListingCard from '../components/ListingCard.astro';
+import { getCollection } from 'astro:content';
+
+const allListings = await getCollection('listings');
+const sortedListings = allListings.sort((a, b) => (b.data.rating || 0) - (a.data.rating || 0));
+const categories = [...new Set(allListings.map((l) => l.data.category))].sort();
+const categoryCounts = categories.map(cat => ({
+  name: cat,
+  count: allListings.filter(l => l.data.category === cat).length,
+  slug: cat.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and'),
+}));
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'AI Tools for HR',
+  description: 'Discover the best AI-powered tools for human resources. Compare recruiting, onboarding, performance management, payroll, and employee engagement software.',
+  url: 'https://hrai.tools',
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What are the best AI tools for HR in 2026?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The top AI HR tools in 2026 include Rippling for unified workforce management, Paradox for recruiting automation, Lattice for performance management, Culture Amp for employee engagement, and Visier for people analytics. The best choice depends on your specific HR needs and company size.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'How is AI transforming human resources?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'AI is transforming HR by automating repetitive tasks like resume screening and payroll processing, providing predictive analytics for turnover and engagement, enabling personalized employee experiences, reducing bias in hiring, and giving HR leaders data-driven insights for better workforce decisions.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Are AI HR tools worth the investment for small businesses?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, many AI HR tools offer affordable plans for small businesses. Tools like Gusto (starting at $40/mo), BambooHR, and 15Five provide powerful automation at accessible price points, helping small HR teams save time and make better decisions without enterprise budgets.'
+      }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Best AI Tools for HR & Human Resources (2026)"
+  description="Discover and compare the best AI-powered HR tools for recruiting, onboarding, performance management, payroll, employee engagement, and workforce analytics. Updated for 2026."
+  schema={schema}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <!-- Hero -->
+  <section class="text-center py-16 bg-gradient-to-b from-blue-50 to-white">
+    <h1 class="text-5xl font-bold mb-4 text-gray-900">Best AI Tools for HR & Human Resources (2026)</h1>
+    <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+      Discover, compare, and choose the right AI-powered HR software for recruiting, onboarding, performance management, payroll, employee engagement, and workforce analytics.
+    </p>
+    <p class="text-sm text-gray-500">{allListings.length} tools reviewed across {categories.length} categories</p>
+  </section>
+
+  <!-- Categories -->
+  <section class="mb-12 px-4">
+    <h2 class="text-2xl font-bold mb-6 text-center">Browse by Category</h2>
+    <div class="flex flex-wrap gap-3 justify-center max-w-4xl mx-auto">
+      {categoryCounts.map((cat) => (
+        <a
+          href={`/category/${cat.slug}`}
+          class="px-5 py-3 bg-white border border-gray-200 rounded-lg text-sm hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 transition-colors shadow-sm"
+        >
+          {cat.name} <span class="text-gray-400 ml-1">({cat.count})</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Best Of Guides -->
+  <section class="mb-12 px-4 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6 text-center">Best Of Guides</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <a href="/best/best-ai-recruiting-tools" class="p-4 bg-white border rounded-lg hover:shadow-md transition-shadow">
+        <h3 class="font-semibold text-blue-700">Best AI Recruiting Tools</h3>
+        <p class="text-sm text-gray-500 mt-1">Top AI tools for hiring and talent acquisition</p>
+      </a>
+      <a href="/best/best-ai-onboarding-tools" class="p-4 bg-white border rounded-lg hover:shadow-md transition-shadow">
+        <h3 class="font-semibold text-blue-700">Best AI Onboarding Tools</h3>
+        <p class="text-sm text-gray-500 mt-1">Automate and improve new hire experiences</p>
+      </a>
+      <a href="/best/best-ai-performance-management-tools" class="p-4 bg-white border rounded-lg hover:shadow-md transition-shadow">
+        <h3 class="font-semibold text-blue-700">Best AI Performance Management</h3>
+        <p class="text-sm text-gray-500 mt-1">Drive growth with AI-powered reviews and feedback</p>
+      </a>
+      <a href="/best/best-ai-payroll-tools" class="p-4 bg-white border rounded-lg hover:shadow-md transition-shadow">
+        <h3 class="font-semibold text-blue-700">Best AI Payroll Tools</h3>
+        <p class="text-sm text-gray-500 mt-1">Automate payroll, taxes, and benefits</p>
+      </a>
+      <a href="/best/best-ai-employee-engagement-tools" class="p-4 bg-white border rounded-lg hover:shadow-md transition-shadow">
+        <h3 class="font-semibold text-blue-700">Best AI Employee Engagement</h3>
+        <p class="text-sm text-gray-500 mt-1">Boost engagement with AI-driven insights</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- All Listings -->
+  <section class="px-4 max-w-6xl mx-auto pb-16">
+    <h2 class="text-2xl font-bold mb-6">All AI HR Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {sortedListings.map((listing) => (
+        <ListingCard {...listing.data} />
+      ))}
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="px-4 max-w-3xl mx-auto pb-16">
+    <h2 class="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
+    <div class="space-y-6">
+      <div>
+        <h3 class="font-semibold text-lg">What are the best AI tools for HR in 2026?</h3>
+        <p class="text-gray-600 mt-2">The top AI HR tools in 2026 include Rippling for unified workforce management, Paradox for recruiting automation, Lattice for performance management, Culture Amp for employee engagement, and Visier for people analytics. The best choice depends on your specific HR needs and company size.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-lg">How is AI transforming human resources?</h3>
+        <p class="text-gray-600 mt-2">AI is transforming HR by automating repetitive tasks like resume screening and payroll processing, providing predictive analytics for turnover and engagement, enabling personalized employee experiences, reducing bias in hiring, and giving HR leaders data-driven insights for better workforce decisions.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-lg">Are AI HR tools worth the investment for small businesses?</h3>
+        <p class="text-gray-600 mt-2">Yes, many AI HR tools offer affordable plans for small businesses. Tools like Gusto (starting at $40/mo), BambooHR, and 15Five provide powerful automation at accessible price points, helping small HR teams save time and make better decisions without enterprise budgets.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

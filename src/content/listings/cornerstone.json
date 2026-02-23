@@ -1,0 +1,16 @@
+{
+  "name": "Cornerstone OnDemand",
+  "slug": "cornerstone",
+  "tagline": "AI-driven talent management and learning platform",
+  "description": "Cornerstone OnDemand is a comprehensive talent management platform that uses AI to connect learning, skills, content, and workforce agility. Its AI engine maps organizational skills, identifies gaps, recommends personalized learning paths, and predicts future talent needs. Cornerstone's content universe provides access to millions of curated learning resources matched to individual development goals.",
+  "category": "Learning & Development",
+  "subcategory": "Talent Management",
+  "url": "https://www.cornerstoneondemand.com",
+  "pricing": {"model": "enterprise"},
+  "features": ["AI skills mapping", "Personalized learning paths", "Content curation engine", "Succession planning", "Performance management", "Compliance training", "Skills intelligence", "Workforce agility tools"],
+  "pros": ["Comprehensive talent management", "Excellent content library", "Strong skills intelligence", "Good compliance tools"],
+  "cons": ["Complex pricing structure", "UI can feel overwhelming", "Long implementation cycles"],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-23",
+  "tags": ["learning", "talent-management", "skills", "content-curation", "compliance"]
+}
