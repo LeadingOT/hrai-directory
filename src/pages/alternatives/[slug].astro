@@ -1,0 +1,171 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const listings = await getCollection('listings');
+  return listings.map((listing) => {
+    const alternatives = listings.filter(
+      (l) => l.data.category === listing.data.category && l.data.slug !== listing.data.slug
+    );
+    return {
+      params: { slug: listing.data.slug },
+      props: { listing: listing.data, alternatives: alternatives.map((a) => a.data) },
+    };
+  });
+}
+
+const { listing, alternatives } = Astro.props;
+
+const title = `Best ${listing.name} Alternatives in 2026 (Top ${alternatives.length} Picks)`;
+const description = `Looking for ${listing.name} alternatives? Compare the top ${alternatives.length} ${listing.category} tools including ${alternatives.slice(0, 3).map((a: any) => a.name).join(', ')} and more.`;
+
+// Generate a short "why it's a good alternative" blurb per tool
+function whyGood(alt: any, original: any): string {
+  const reasons: string[] = [];
+  if (alt.rating && original.rating && alt.rating >= original.rating) {
+    reasons.push(`With a ${alt.rating.toFixed(1)}/5 rating, ${alt.name} matches or exceeds ${original.name} in user satisfaction.`);
+  }
+  if (alt.pricing.model === 'free' || alt.pricing.model === 'freemium' || alt.pricing.model === 'open-source') {
+    reasons.push(`${alt.name} offers a ${alt.pricing.model} option, making it accessible for teams on a budget.`);
+  } else if (alt.pricing.startingPrice) {
+    reasons.push(`Starting at ${alt.pricing.startingPrice}, ${alt.name} provides competitive pricing for ${alt.category.toLowerCase()} software.`);
+  }
+  const uniqueFeatures = alt.features.filter((f: string) => !original.features.includes(f)).slice(0, 2);
+  if (uniqueFeatures.length > 0) {
+    reasons.push(`It stands out with features like ${uniqueFeatures.join(' and ')}.`);
+  }
+  if (alt.pros && alt.pros.length > 0) {
+    reasons.push(`Users highlight: ${alt.pros[0].toLowerCase()}.`);
+  }
+  return reasons.slice(0, 3).join(' ') || `${alt.name} is a strong ${alt.category.toLowerCase()} platform worth considering as an alternative.`;
+}
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: title,
+  description,
+  numberOfItems: alternatives.length,
+  itemListElement: alternatives.map((alt: any, i: number) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: alt.name,
+    url: `https://hrai.tools/listing/${alt.slug}`,
+    description: alt.tagline,
+  })),
+};
+
+const faqs = [
+  {
+    question: `What are the best alternatives to ${listing.name}?`,
+    answer: `The top alternatives to ${listing.name} include ${alternatives.map((a: any) => a.name).join(', ')}. All are in the ${listing.category} category.`,
+  },
+  {
+    question: `Is there a free alternative to ${listing.name}?`,
+    answer: (() => {
+      const free = alternatives.filter((a: any) => a.pricing.model === 'free' || a.pricing.model === 'freemium' || a.pricing.model === 'open-source');
+      return free.length > 0
+        ? `Yes! ${free.map((a: any) => `${a.name} (${a.pricing.model})`).join(', ')} offer free or freemium plans.`
+        : `Currently, most ${listing.name} alternatives use paid pricing models. Check each tool for trial offers.`;
+    })(),
+  },
+  {
+    question: `How do I choose the right ${listing.category} tool?`,
+    answer: `Consider your team size, budget, required features, and integration needs. Compare ratings, pricing, and specific capabilities like ${listing.features.slice(0, 3).join(', ')} to find the best fit.`,
+  },
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={`https://hrai.tools/alternatives/${listing.slug}`}
+  schema={schema}
+>
+  <article class="max-w-4xl">
+    <!-- Breadcrumb -->
+    <div class="flex items-center gap-2 text-sm text-gray-500 mb-4">
+      <a href="/" class="hover:text-blue-600">Home</a>
+      <span>/</span>
+      <a href={`/category/${listing.category.toLowerCase().replace(/\s+/g, '-')}`} class="hover:text-blue-600">{listing.category}</a>
+      <span>/</span>
+      <span>{listing.name} Alternatives</span>
+    </div>
+
+    <h1 class="text-3xl font-bold mb-2">{title}</h1>
+    <p class="text-gray-600 mb-8">
+      Not sure if <a href={`/listing/${listing.slug}`} class="text-blue-600 hover:underline">{listing.name}</a> is right for you?
+      Here are the best alternatives in the <strong>{listing.category}</strong> space to consider.
+    </p>
+
+    <!-- Comparison Table -->
+    <section class="mb-10 overflow-x-auto">
+      <h2 class="text-xl font-semibold mb-4">Quick Comparison</h2>
+      <table class="w-full text-sm border border-gray-200 rounded-lg">
+        <thead class="bg-gray-50">
+          <tr>
+            <th class="text-left p-3 border-b">Tool</th>
+            <th class="text-left p-3 border-b">Rating</th>
+            <th class="text-left p-3 border-b">Pricing</th>
+            <th class="text-left p-3 border-b">Key Features</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-blue-50">
+            <td class="p-3 border-b font-medium">
+              <a href={`/listing/${listing.slug}`} class="text-blue-600 hover:underline">{listing.name}</a>
+              <span class="text-xs text-gray-400 ml-1">(current)</span>
+            </td>
+            <td class="p-3 border-b">{listing.rating ? `★ ${listing.rating.toFixed(1)}` : '—'}</td>
+            <td class="p-3 border-b">{listing.pricing.startingPrice || listing.pricing.model}</td>
+            <td class="p-3 border-b">{listing.features.slice(0, 3).join(', ')}</td>
+          </tr>
+          {alternatives.map((alt: any) => (
+            <tr>
+              <td class="p-3 border-b font-medium">
+                <a href={`/listing/${alt.slug}`} class="text-blue-600 hover:underline">{alt.name}</a>
+              </td>
+              <td class="p-3 border-b">{alt.rating ? `★ ${alt.rating.toFixed(1)}` : '—'}</td>
+              <td class="p-3 border-b">{alt.pricing.startingPrice || alt.pricing.model}</td>
+              <td class="p-3 border-b">{alt.features.slice(0, 3).join(', ')}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Detailed Alternatives -->
+    <section class="mb-10">
+      <h2 class="text-xl font-semibold mb-4">Detailed Alternatives to {listing.name}</h2>
+      <div class="space-y-6">
+        {alternatives.map((alt: any, i: number) => (
+          <div class="border border-gray-200 rounded-lg p-5">
+            <div class="flex items-start justify-between mb-2">
+              <h3 class="text-lg font-semibold">
+                <a href={`/listing/${alt.slug}`} class="text-blue-600 hover:underline">
+                  {i + 1}. {alt.name}
+                </a>
+              </h3>
+              {alt.rating && <span class="text-yellow-600 text-sm">★ {alt.rating.toFixed(1)}</span>}
+            </div>
+            <p class="text-sm text-gray-500 mb-2">{alt.tagline}</p>
+            <p class="text-gray-700 text-sm mb-3">{whyGood(alt, listing)}</p>
+            <div class="flex flex-wrap gap-4 text-xs text-gray-500">
+              <span>💰 {alt.pricing.startingPrice || alt.pricing.model}</span>
+              <a href={`/compare/${listing.slug}-vs-${alt.slug}`} class="text-blue-600 hover:underline">
+                Compare {listing.name} vs {alt.name} →
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <FAQSection faqs={faqs} />
+
+    <p class="text-xs text-gray-400 mt-8">Last updated: {listing.lastUpdated}</p>
+  </article>
+</BaseLayout>

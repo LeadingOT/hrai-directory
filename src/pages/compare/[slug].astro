@@ -1,0 +1,251 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FAQSection from '../../components/FAQSection.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const listings = await getCollection('listings');
+  const paths: any[] = [];
+
+  // Group by category
+  const byCategory: Record<string, any[]> = {};
+  for (const l of listings) {
+    const cat = l.data.category;
+    if (!byCategory[cat]) byCategory[cat] = [];
+    byCategory[cat].push(l.data);
+  }
+
+  // Generate one page per ordered pair (A vs B only, not B vs A)
+  for (const tools of Object.values(byCategory)) {
+    for (let i = 0; i < tools.length; i++) {
+      for (let j = i + 1; j < tools.length; j++) {
+        const a = tools[i];
+        const b = tools[j];
+        paths.push({
+          params: { slug: `${a.slug}-vs-${b.slug}` },
+          props: { toolA: a, toolB: b },
+        });
+      }
+    }
+  }
+
+  return paths;
+}
+
+const { toolA, toolB } = Astro.props;
+
+const title = `${toolA.name} vs ${toolB.name}: Detailed Comparison (2026)`;
+const description = `Compare ${toolA.name} and ${toolB.name} side by side. See features, pricing, pros & cons, and ratings to pick the best ${toolA.category} tool for your team.`;
+
+function bestFor(tool: any): string {
+  if (tool.pricing.model === 'free' || tool.pricing.model === 'freemium') return 'Budget-conscious teams';
+  if (tool.pricing.model === 'enterprise') return 'Large enterprises';
+  if (tool.tags?.includes('smb')) return 'Small & medium businesses';
+  if (tool.tags?.includes('enterprise')) return 'Enterprise organizations';
+  return `Teams needing strong ${tool.category.toLowerCase()} capabilities`;
+}
+
+const faqs = [
+  {
+    question: `What is the difference between ${toolA.name} and ${toolB.name}?`,
+    answer: `${toolA.name} is ${toolA.tagline.toLowerCase()}, while ${toolB.name} is ${toolB.tagline.toLowerCase()}. Both are ${toolA.category} tools but differ in features, pricing, and target audience.`,
+  },
+  {
+    question: `Which is better, ${toolA.name} or ${toolB.name}?`,
+    answer: (() => {
+      if (toolA.rating && toolB.rating) {
+        const higher = toolA.rating >= toolB.rating ? toolA : toolB;
+        return `${higher.name} has a slightly higher rating (${higher.rating.toFixed(1)}/5), but the best choice depends on your specific needs, budget, and team size.`;
+      }
+      return `Both are strong options. The best choice depends on your specific needs, budget, and team size.`;
+    })(),
+  },
+  {
+    question: `How much do ${toolA.name} and ${toolB.name} cost?`,
+    answer: `${toolA.name} ${toolA.pricing.startingPrice ? `starts at ${toolA.pricing.startingPrice}` : `uses a ${toolA.pricing.model} model`}. ${toolB.name} ${toolB.pricing.startingPrice ? `starts at ${toolB.pricing.startingPrice}` : `uses a ${toolB.pricing.model} model`}.`,
+  },
+  {
+    question: `Can I use ${toolA.name} and ${toolB.name} together?`,
+    answer: `It depends on your HR stack. Some teams use multiple ${toolA.category.toLowerCase()} tools for different functions. Check each tool's integration capabilities to see if they complement each other.`,
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+};
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={`https://hrai.tools/compare/${toolA.slug}-vs-${toolB.slug}`}
+  schema={faqSchema}
+>
+  <article class="max-w-4xl">
+    <!-- Breadcrumb -->
+    <div class="flex items-center gap-2 text-sm text-gray-500 mb-4">
+      <a href="/" class="hover:text-blue-600">Home</a>
+      <span>/</span>
+      <a href={`/category/${toolA.category.toLowerCase().replace(/\s+/g, '-')}`} class="hover:text-blue-600">{toolA.category}</a>
+      <span>/</span>
+      <span>{toolA.name} vs {toolB.name}</span>
+    </div>
+
+    <h1 class="text-3xl font-bold mb-2">{title}</h1>
+    <p class="text-gray-600 mb-8">
+      A head-to-head comparison of <a href={`/listing/${toolA.slug}`} class="text-blue-600 hover:underline">{toolA.name}</a> and
+      <a href={`/listing/${toolB.slug}`} class="text-blue-600 hover:underline">{toolB.name}</a> to help you choose the right {toolA.category.toLowerCase()} solution.
+    </p>
+
+    <!-- Side-by-Side Overview -->
+    <section class="mb-10 overflow-x-auto">
+      <h2 class="text-xl font-semibold mb-4">At a Glance</h2>
+      <table class="w-full text-sm border border-gray-200 rounded-lg">
+        <thead class="bg-gray-50">
+          <tr>
+            <th class="text-left p-3 border-b w-1/4"></th>
+            <th class="text-left p-3 border-b w-[37.5%]">{toolA.name}</th>
+            <th class="text-left p-3 border-b w-[37.5%]">{toolB.name}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="p-3 border-b font-medium text-gray-500">Rating</td>
+            <td class="p-3 border-b">{toolA.rating ? `★ ${toolA.rating.toFixed(1)} / 5.0` : '—'}</td>
+            <td class="p-3 border-b">{toolB.rating ? `★ ${toolB.rating.toFixed(1)} / 5.0` : '—'}</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="p-3 border-b font-medium text-gray-500">Pricing Model</td>
+            <td class="p-3 border-b">{toolA.pricing.model}</td>
+            <td class="p-3 border-b">{toolB.pricing.model}</td>
+          </tr>
+          <tr>
+            <td class="p-3 border-b font-medium text-gray-500">Starting Price</td>
+            <td class="p-3 border-b">{toolA.pricing.startingPrice || '—'}</td>
+            <td class="p-3 border-b">{toolB.pricing.startingPrice || '—'}</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="p-3 border-b font-medium text-gray-500">Category</td>
+            <td class="p-3 border-b">{toolA.category}</td>
+            <td class="p-3 border-b">{toolB.category}</td>
+          </tr>
+          <tr>
+            <td class="p-3 border-b font-medium text-gray-500">Best For</td>
+            <td class="p-3 border-b">{bestFor(toolA)}</td>
+            <td class="p-3 border-b">{bestFor(toolB)}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Features Comparison -->
+    <section class="mb-10">
+      <h2 class="text-xl font-semibold mb-4">Features Comparison</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <h3 class="font-semibold mb-2"><a href={`/listing/${toolA.slug}`} class="text-blue-600 hover:underline">{toolA.name}</a></h3>
+          <ul class="space-y-1">
+            {toolA.features.map((f: string) => (
+              <li class="text-sm flex items-center gap-2">
+                <span class={toolB.features.includes(f) ? 'text-gray-400' : 'text-green-600'}>
+                  {toolB.features.includes(f) ? '•' : '★'}
+                </span>
+                <span class={!toolB.features.includes(f) ? 'font-medium' : ''}>{f}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-2"><a href={`/listing/${toolB.slug}`} class="text-blue-600 hover:underline">{toolB.name}</a></h3>
+          <ul class="space-y-1">
+            {toolB.features.map((f: string) => (
+              <li class="text-sm flex items-center gap-2">
+                <span class={toolA.features.includes(f) ? 'text-gray-400' : 'text-green-600'}>
+                  {toolA.features.includes(f) ? '•' : '★'}
+                </span>
+                <span class={!toolA.features.includes(f) ? 'font-medium' : ''}>{f}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <p class="text-xs text-gray-400 mt-2">★ = unique feature not found in the other tool</p>
+    </section>
+
+    <!-- Pros & Cons -->
+    <section class="mb-10">
+      <h2 class="text-xl font-semibold mb-4">Pros & Cons</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {[toolA, toolB].map((tool: any) => (
+          <div class="border border-gray-200 rounded-lg p-4">
+            <h3 class="font-semibold mb-3">
+              <a href={`/listing/${tool.slug}`} class="text-blue-600 hover:underline">{tool.name}</a>
+            </h3>
+            {tool.pros && (
+              <div class="mb-3">
+                <h4 class="text-sm font-medium text-green-700 mb-1">Pros</h4>
+                <ul class="space-y-1">
+                  {tool.pros.map((p: string) => (
+                    <li class="text-sm">✅ {p}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {tool.cons && (
+              <div>
+                <h4 class="text-sm font-medium text-red-700 mb-1">Cons</h4>
+                <ul class="space-y-1">
+                  {tool.cons.map((c: string) => (
+                    <li class="text-sm">❌ {c}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Verdict -->
+    <section class="mb-10 bg-gray-50 rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-3">The Verdict</h2>
+      <p class="text-gray-700">
+        Both <strong>{toolA.name}</strong> and <strong>{toolB.name}</strong> are solid {toolA.category.toLowerCase()} solutions.
+        {toolA.rating && toolB.rating && toolA.rating !== toolB.rating ? (
+          ` ${toolA.rating > toolB.rating ? toolA.name : toolB.name} edges ahead with a ${Math.max(toolA.rating, toolB.rating).toFixed(1)}/5 rating, but `
+        ) : ' '}
+        Your decision should come down to your team's specific requirements, budget, and the features that matter most to your organization.
+      </p>
+      <div class="flex gap-4 mt-4">
+        <a href={`/listing/${toolA.slug}`} class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm">
+          View {toolA.name} →
+        </a>
+        <a href={`/listing/${toolB.slug}`} class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm">
+          View {toolB.name} →
+        </a>
+      </div>
+    </section>
+
+    <!-- Related -->
+    <section class="mb-10">
+      <h2 class="text-lg font-semibold mb-3">Related Comparisons</h2>
+      <div class="flex flex-wrap gap-2">
+        <a href={`/alternatives/${toolA.slug}`} class="text-sm text-blue-600 hover:underline">{toolA.name} Alternatives</a>
+        <span class="text-gray-300">|</span>
+        <a href={`/alternatives/${toolB.slug}`} class="text-sm text-blue-600 hover:underline">{toolB.name} Alternatives</a>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <FAQSection faqs={faqs} />
+  </article>
+</BaseLayout>
