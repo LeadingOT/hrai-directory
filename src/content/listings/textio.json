@@ -1,0 +1,16 @@
+{
+  "name": "Textio",
+  "slug": "textio",
+  "tagline": "AI writing platform that removes bias from job posts and HR communications",
+  "description": "Textio uses advanced natural language processing to analyze and improve job listings, performance reviews, and other HR communications. Its AI detects biased or exclusionary language in real-time and suggests inclusive alternatives, helping companies attract more diverse candidate pools. Textio's predictive engine is trained on millions of real hiring outcomes to identify which language patterns drive better results.",
+  "category": "Recruiting",
+  "subcategory": "Job Posting Optimization",
+  "url": "https://textio.com",
+  "pricing": {"model": "paid", "startingPrice": "Contact for pricing"},
+  "features": ["Real-time bias detection in job posts", "Inclusive language suggestions", "Performance review analysis", "Tone and readability scoring", "Browser extension for live editing", "DEI analytics and reporting", "Team writing benchmarks", "Integration with major ATS platforms"],
+  "pros": ["Proven to increase diverse applicant pools", "Real-time feedback while writing", "Strong research-backed AI models", "Easy integration with existing workflows"],
+  "cons": ["Enterprise pricing not transparent", "Focused mainly on written content", "Requires volume of data for best insights"],
+  "rating": 4.5,
+  "lastUpdated": "2026-02-24",
+  "tags": ["recruiting", "dei", "bias-detection", "job-posting", "writing"]
+}

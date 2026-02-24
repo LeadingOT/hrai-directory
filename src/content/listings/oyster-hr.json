@@ -1,0 +1,16 @@
+{
+  "name": "Oyster HR",
+  "slug": "oyster-hr",
+  "tagline": "AI-assisted global employment platform for hiring and paying international teams",
+  "description": "Oyster HR is a global employment platform that uses AI to simplify hiring, paying, and managing distributed teams across 180+ countries. Its AI-powered compliance engine automatically handles local labor laws, tax regulations, and benefits requirements. Oyster streamlines global onboarding, generates compliant employment contracts, and provides intelligent payroll across multiple currencies and jurisdictions.",
+  "category": "Payroll & Benefits",
+  "subcategory": "Global Employment",
+  "url": "https://www.oysterhr.com",
+  "pricing": {"model": "paid", "startingPrice": "$29/contractor/mo, $599/employee/mo"},
+  "features": ["Employer of Record in 180+ countries", "AI-powered compliance engine", "Global payroll in local currencies", "Automated contract generation", "Benefits administration by country", "Equity and stock option management", "Time-off management", "Expense management"],
+  "pros": ["Vast country coverage", "Simplifies complex global compliance", "Clean and intuitive interface", "Strong contractor management"],
+  "cons": ["Expensive per-employee pricing", "Benefits options vary by country", "Limited customization for large enterprises"],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-24",
+  "tags": ["global-employment", "eor", "payroll", "compliance", "remote-work"]
+}

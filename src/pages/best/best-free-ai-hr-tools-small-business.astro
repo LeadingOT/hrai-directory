@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import { getCollection } from 'astro:content';
+
+const allListings = await getCollection('listings');
+const tools = allListings
+  .filter((l) => l.data.tags?.includes('small-business') || l.data.tags?.includes('free') || l.data.pricing?.model === 'freemium')
+  .sort((a, b) => (b.data.rating || 0) - (a.data.rating || 0));
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Best Free AI HR Tools for Small Business in 2026',
+  datePublished: '2026-02-24',
+  dateModified: '2026-02-24',
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What are the best free AI HR tools for small businesses?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Zoho People offers a free tier for up to 5 users with AI-powered HR management. Fetcher provides free AI recruiting and sourcing. Gusto, while not free, starts at very affordable pricing with AI payroll automation. Many tools like Bonusly offer low per-user costs ideal for small teams.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'Can small businesses benefit from AI HR tools?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Absolutely. AI HR tools help small businesses automate time-consuming tasks like payroll, recruiting, and employee management — saving hours each week. Free and freemium tools make AI accessible without enterprise budgets, letting small teams compete for talent with larger companies.' }
+    },
+    {
+      '@type': 'Question',
+      name: 'What should small businesses look for in an AI HR tool?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Look for affordable or free pricing tiers, ease of setup without IT staff, automation of repetitive tasks (payroll, scheduling, onboarding), good employee self-service features, and integrations with tools you already use like Slack, Google Workspace, or QuickBooks.' }
+    }
+  ]
+};
+---
+
+<BaseLayout
+  title="Best Free AI HR Tools for Small Business 2026 - Affordable HR Software"
+  description="Discover the best free and affordable AI HR tools for small businesses in 2026. Compare Zoho People, Gusto, Fetcher, Bonusly, and more for payroll, recruiting, engagement, and HR management."
+  schema={schema}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <article class="max-w-4xl mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold mb-4">Best Free AI HR Tools for Small Business in 2026</h1>
+    <p class="text-lg text-gray-600 mb-2">Last updated: February 24, 2026</p>
+    <p class="text-gray-700 mb-8 text-lg leading-relaxed">
+      Small businesses don't need enterprise budgets to benefit from AI in HR. From free HRIS platforms to affordable AI-powered payroll and recruiting tools, there are excellent options that automate the busywork so you can focus on growing your team. Here are the best free and budget-friendly AI HR tools for small businesses in 2026.
+    </p>
+
+    <nav class="bg-gray-50 rounded-lg p-6 mb-10">
+      <h2 class="font-semibold mb-3">Quick Picks</h2>
+      <ul class="space-y-2 text-sm">
+        <li><strong>Best free HRIS:</strong> <a href="/listing/zoho-people" class="text-blue-600 hover:underline">Zoho People</a> — Free for up to 5 users</li>
+        <li><strong>Best affordable payroll:</strong> <a href="/listing/gusto" class="text-blue-600 hover:underline">Gusto</a> — From $40/mo + $6/person</li>
+        <li><strong>Best free recruiting:</strong> <a href="/listing/fetcher" class="text-blue-600 hover:underline">Fetcher</a> — Free tier for AI sourcing</li>
+        <li><strong>Best budget engagement:</strong> <a href="/listing/bonusly" class="text-blue-600 hover:underline">Bonusly</a> — Just $2/user/mo</li>
+        <li><strong>Best free video interviews:</strong> <a href="/listing/spark-hire" class="text-blue-600 hover:underline">Spark Hire</a> — From $149/mo</li>
+      </ul>
+    </nav>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold mb-4">Why Small Businesses Need AI HR Tools</h2>
+      <p class="text-gray-700 mb-4">
+        Small business owners and HR teams of one wear many hats. AI HR tools act as a force multiplier — automating payroll calculations, screening resumes, tracking time off, and sending recognition — so you can spend less time on admin and more time on people. The best part? Many of these tools offer free tiers or pricing under $5/user/month.
+      </p>
+    </section>
+
+    <h2 class="text-2xl font-bold mb-6">Top Free & Affordable AI HR Tools</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+      {tools.map((listing) => (
+        <ListingCard {...listing.data} />
+      ))}
+    </div>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold mb-4">How to Choose the Right Tool</h2>
+      <div class="space-y-3 text-gray-700">
+        <p><strong>Start with your biggest pain point.</strong> If payroll eats your Fridays, start with Gusto. If you're drowning in resumes, try Fetcher. If you have no HR system at all, Zoho People's free tier is a great starting point.</p>
+        <p><strong>Check integrations.</strong> The best tool is one that works with what you already use — your accounting software, Slack, Google Workspace, or existing spreadsheets.</p>
+        <p><strong>Plan for growth.</strong> Pick tools that scale with you. A free tier that becomes $3/user/mo at 20 employees is still a great deal.</p>
+      </div>
+    </section>
+
+    <section class="bg-gray-50 rounded-lg p-6">
+      <h2 class="text-xl font-bold mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-semibold">What are the best free AI HR tools for small businesses?</h3>
+          <p class="text-gray-600 mt-1">Zoho People (free for 5 users), Fetcher (free AI sourcing tier), and Bonusly ($2/user/mo) are top picks. Gusto offers excellent AI payroll starting at $40/mo.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">Can small businesses benefit from AI HR tools?</h3>
+          <p class="text-gray-600 mt-1">Yes — AI automates payroll, recruiting, and employee management, saving hours weekly. Free and freemium tools make this accessible without enterprise budgets.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">What should I look for in an AI HR tool?</h3>
+          <p class="text-gray-600 mt-1">Affordable pricing, easy setup, automation of repetitive tasks, employee self-service, and integrations with your existing tools like Slack or QuickBooks.</p>
+        </div>
+      </div>
+    </section>
+  </article>
+</BaseLayout>

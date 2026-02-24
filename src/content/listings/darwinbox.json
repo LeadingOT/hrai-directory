@@ -1,0 +1,16 @@
+{
+  "name": "Darwinbox",
+  "slug": "darwinbox",
+  "tagline": "AI-first HCM platform for mid-market and enterprise organizations",
+  "description": "Darwinbox is a new-generation, AI-first human capital management platform that covers the entire employee lifecycle. Its AI engine powers smart resume parsing, intelligent workforce analytics, voice-enabled HR bot, and predictive attrition modeling. Used by 900+ enterprises globally, Darwinbox handles recruitment, core HR, payroll, talent management, and employee engagement with a mobile-first, consumer-grade UX.",
+  "category": "Core HR",
+  "subcategory": "HCM",
+  "url": "https://darwinbox.com",
+  "pricing": {"model": "paid", "startingPrice": "Contact for pricing"},
+  "features": ["AI-powered resume parsing", "Predictive attrition analytics", "Voice-enabled HR chatbot", "Full payroll automation", "Performance and OKR management", "Learning management system", "Rewards and recognition", "Mobile-first employee app"],
+  "pros": ["Modern mobile-first UX", "Comprehensive all-in-one platform", "Strong AI across modules", "Fast implementation timelines"],
+  "cons": ["Primarily strong in Asia-Pacific market", "Limited third-party integrations vs. competitors", "Pricing not transparent"],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-24",
+  "tags": ["hcm", "core-hr", "enterprise", "payroll", "talent-management"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Beamery",
+  "slug": "beamery",
+  "tagline": "AI-powered talent lifecycle management platform for enterprise",
+  "description": "Beamery is an enterprise talent management platform that uses AI to help organizations attract, engage, retain, and develop talent. Its TalentGPT capabilities provide AI-driven talent insights, skills intelligence, and workforce planning. Beamery unifies CRM, talent marketing, compliance, and analytics into a single platform that helps HR teams make data-driven decisions across the entire talent lifecycle.",
+  "category": "Talent Management",
+  "subcategory": "Talent CRM",
+  "url": "https://beamery.com",
+  "pricing": {"model": "paid", "startingPrice": "Contact for pricing"},
+  "features": ["TalentGPT AI assistant", "Skills intelligence engine", "Talent CRM and pipeline management", "Workforce planning and analytics", "Internal mobility marketplace", "Compliance and data privacy tools", "Candidate engagement automation", "Integration with major HCM suites"],
+  "pros": ["Powerful AI-driven talent insights", "Unified talent lifecycle view", "Strong enterprise security and compliance", "Excellent skills mapping capabilities"],
+  "cons": ["Enterprise-only pricing", "Steep learning curve", "Requires significant data for best results"],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-24",
+  "tags": ["talent-management", "talent-crm", "enterprise", "skills-intelligence", "workforce-planning"]
+}

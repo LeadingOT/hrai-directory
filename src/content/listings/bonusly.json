@@ -1,0 +1,16 @@
+{
+  "name": "Bonusly",
+  "slug": "bonusly",
+  "tagline": "AI-driven employee recognition and rewards platform",
+  "description": "Bonusly is an employee recognition and rewards platform that uses AI to surface engagement insights and foster a culture of appreciation. Employees give each other micro-bonuses tied to company values, which can be redeemed for gift cards, donations, or custom rewards. Bonusly's AI analytics identify recognition patterns, flag disengaged teams, and provide managers with actionable insights to improve retention and morale.",
+  "category": "Employee Engagement",
+  "subcategory": "Recognition & Rewards",
+  "url": "https://bonusly.com",
+  "pricing": {"model": "paid", "startingPrice": "$2/user/mo"},
+  "features": ["Peer-to-peer recognition", "AI-powered engagement analytics", "Customizable reward catalog", "Company values alignment", "Manager insights dashboard", "Slack and Teams integration", "Automated milestones and birthdays", "Public recognition feed"],
+  "pros": ["Very affordable per-user pricing", "Drives real cultural change", "Easy adoption with chat integrations", "Rich analytics for managers"],
+  "cons": ["Focused only on recognition", "Reward catalog varies by region", "Can feel gamified if not managed well"],
+  "rating": 4.5,
+  "lastUpdated": "2026-02-24",
+  "tags": ["employee-engagement", "recognition", "rewards", "culture", "small-business"]
+}

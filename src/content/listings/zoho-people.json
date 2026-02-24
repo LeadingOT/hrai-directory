@@ -1,0 +1,16 @@
+{
+  "name": "Zoho People",
+  "slug": "zoho-people",
+  "tagline": "AI-enhanced HR management platform with smart automation and analytics",
+  "description": "Zoho People is a comprehensive cloud-based HR management system that leverages AI to streamline core HR operations. Its intelligent assistant Zia automates repetitive tasks, provides workforce analytics, and helps with employee query resolution. The platform covers attendance tracking, leave management, performance appraisals, time tracking, and employee self-service — all with smart automation rules and predictive insights.",
+  "category": "Core HR",
+  "subcategory": "HRIS",
+  "url": "https://www.zoho.com/people/",
+  "pricing": {"model": "freemium", "startingPrice": "Free up to 5 users, $1.25/user/mo"},
+  "features": ["AI assistant Zia for HR queries", "Automated attendance and leave management", "Performance appraisal workflows", "Employee self-service portal", "Custom forms and workflows", "Time and shift scheduling", "HR analytics dashboards", "Mobile app"],
+  "pros": ["Very affordable pricing with free tier", "Excellent Zoho ecosystem integration", "Highly customizable workflows", "Great for small to mid-size businesses"],
+  "cons": ["UI can feel dated", "Advanced analytics require higher plans", "Limited recruiting features built-in"],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-24",
+  "tags": ["hris", "core-hr", "small-business", "free", "attendance", "leave-management"]
+}

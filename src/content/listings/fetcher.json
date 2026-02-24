@@ -1,0 +1,16 @@
+{
+  "name": "Fetcher",
+  "slug": "fetcher",
+  "tagline": "AI-powered recruiting automation for sourcing and outreach",
+  "description": "Fetcher combines AI automation with human expertise to deliver qualified, diverse candidate pipelines directly to recruiters. Its AI engine searches across multiple data sources to identify ideal candidates matching your requirements, then automates personalized email outreach sequences. Fetcher's analytics track diversity metrics, response rates, and pipeline performance to continuously optimize sourcing strategies.",
+  "category": "Recruiting",
+  "subcategory": "Sourcing",
+  "url": "https://fetcher.ai",
+  "pricing": {"model": "freemium", "startingPrice": "Free tier available, paid from $149/mo"},
+  "features": ["AI-powered candidate sourcing", "Automated email outreach sequences", "Diversity analytics and reporting", "Candidate pipeline management", "Performance analytics", "ATS integrations", "Team collaboration tools", "Calibration feedback loops"],
+  "pros": ["Saves significant sourcing time", "Good diversity-focused features", "Free tier for small teams", "Human-reviewed candidate quality"],
+  "cons": ["Email outreach can feel templated", "Smaller candidate database than LinkedIn", "Best results require calibration period"],
+  "rating": 4.2,
+  "lastUpdated": "2026-02-24",
+  "tags": ["recruiting", "sourcing", "outreach", "diversity", "free", "small-business"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Spark Hire",
+  "slug": "spark-hire",
+  "tagline": "AI-enhanced video interviewing platform for faster, smarter hiring",
+  "description": "Spark Hire is a video interviewing platform that uses AI to help hiring teams screen candidates faster and more consistently. It supports one-way video interviews where candidates record responses on their own time, and live video interviews with AI-powered scheduling. The platform provides collaboration tools for hiring teams to evaluate, rate, and compare candidates efficiently, reducing time-to-hire significantly.",
+  "category": "Recruiting",
+  "subcategory": "Video Interviewing",
+  "url": "https://www.sparkhire.com",
+  "pricing": {"model": "paid", "startingPrice": "$149/mo"},
+  "features": ["One-way video interviews", "Live video interviewing", "AI-powered candidate evaluation", "Team collaboration and scoring", "Branded interview experiences", "ATS integrations", "Automated scheduling", "Interview analytics"],
+  "pros": ["Dramatically reduces screening time", "Easy to use for candidates and recruiters", "Affordable compared to competitors", "Good ATS integration ecosystem"],
+  "cons": ["AI evaluation features still maturing", "Limited advanced analytics on lower plans", "Video quality depends on candidate setup"],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-24",
+  "tags": ["recruiting", "video-interviewing", "screening", "hiring", "small-business"]
+}
