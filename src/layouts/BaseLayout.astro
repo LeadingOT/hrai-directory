@@ -18,75 +18,54 @@ const siteUrl = import.meta.env.SITE || 'https://example.com';
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="iv927-nyIQPRSYljvYThfCyzZWCYOpVjMFhQGCTfzSg" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical || Astro.url.href} />
+
+    <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical || Astro.url.href} />
     {ogImage && <meta property="og:image" content={ogImage} />}
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+
+    <!-- Schema.org JSON-LD -->
     {schema && (
       <script type="application/ld+json" set:html={JSON.stringify(schema)} />
     )}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E8KF1B38B4"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-E8KF1B38B4');</script>
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D62DBG2E4F"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-D62DBG2E4F');</script>
+
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
-  <body class="bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen">
-    <header class="bg-white border-b border-blue-100 sticky top-0 z-50 backdrop-blur-sm bg-white/95">
-      <div class="mx-auto max-w-6xl px-4 py-4">
-        <nav class="flex items-center justify-between">
-          <a href="/" class="flex items-center gap-3 group">
-            <div class="bg-gradient-to-br from-blue-600 to-indigo-600 p-2.5 rounded-xl shadow-lg group-hover:shadow-xl transition-shadow">
-              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
-            </div>
-            <span class="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              HR AI Tools
-            </span>
-          </a>
-          <div class="flex gap-6 text-sm font-medium">
-            <a href="/" class="text-gray-600 hover:text-blue-600 transition-colors">Home</a>
-            <a href="/categories" class="text-gray-600 hover:text-blue-600 transition-colors">Categories</a>
-          </div>
-        </nav>
+  <body class="bg-white text-gray-900 antialiased">
+    <nav class="border-b border-gray-200 bg-white">
+      <div class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
+        <a href="/" class="text-xl font-bold" id="site-name">AI Tools for HR</a>
+        <div class="flex gap-6 text-sm">
+          <a href="/" class="hover:text-blue-600">Home</a>
+          <a href="/categories" class="hover:text-blue-600">Categories</a>
+          <a href="/blog/how-ai-is-transforming-hr-2026" class="hover:text-blue-600">Blog</a>
+        </div>
       </div>
-    </header>
+    </nav>
+
     <main class="mx-auto max-w-6xl px-4 py-8">
       <slot />
     </main>
-    <footer class="bg-gradient-to-r from-slate-900 to-slate-800 mt-16 text-white">
-      <div class="mx-auto max-w-6xl px-4 py-12">
-        <div class="grid md:grid-cols-3 gap-8 mb-8">
-          <div>
-            <h3 class="font-bold text-lg mb-4">HR AI Tools</h3>
-            <p class="text-slate-300 text-sm">
-              Discover the best tools and resources in our curated directory.
-            </p>
-          </div>
-          <div>
-            <h4 class="font-semibold mb-4">Quick Links</h4>
-            <ul class="space-y-2 text-sm text-slate-300">
-              <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
-              <li><a href="/categories" class="hover:text-white transition-colors">Categories</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="font-semibold mb-4">Resources</h4>
-            <ul class="space-y-2 text-sm text-slate-300">
-              <li><a href="/submit" class="hover:text-white transition-colors">Submit a Tool</a></li>
-              <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="border-t border-slate-700 pt-8 text-center text-sm text-slate-400">
-          <p>&copy; {new Date().getFullYear()} HR AI Tools. All rights reserved.</p>
-        </div>
+
+    <footer class="border-t border-gray-200 bg-gray-50 mt-16">
+      <div class="mx-auto max-w-6xl px-4 py-8 text-sm text-gray-500">
+        <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
       </div>
     </footer>
   </body>
