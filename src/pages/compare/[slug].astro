@@ -7,25 +7,18 @@ export async function getStaticPaths() {
   const listings = await getCollection('listings');
   const paths: any[] = [];
 
-  // Group by category
-  const byCategory: Record<string, any[]> = {};
-  for (const l of listings) {
-    const cat = l.data.category;
-    if (!byCategory[cat]) byCategory[cat] = [];
-    byCategory[cat].push(l.data);
-  }
+  // Extract all listings data
+  const tools = listings.map(l => l.data);
 
-  // Generate one page per ordered pair (A vs B only, not B vs A)
-  for (const tools of Object.values(byCategory)) {
-    for (let i = 0; i < tools.length; i++) {
-      for (let j = i + 1; j < tools.length; j++) {
-        const a = tools[i];
-        const b = tools[j];
-        paths.push({
-          params: { slug: `${a.slug}-vs-${b.slug}` },
-          props: { toolA: a, toolB: b },
-        });
-      }
+  // Generate one page per ordered pair (A vs B where A < B alphabetically)
+  // Cross-category comparisons allowed
+  for (let i = 0; i < tools.length; i++) {
+    for (let j = i + 1; j < tools.length; j++) {
+      const [a, b] = [tools[i], tools[j]].sort((x, y) => x.slug.localeCompare(y.slug));
+      paths.push({
+        params: { slug: `${a.slug}-vs-${b.slug}` },
+        props: { toolA: a, toolB: b },
+      });
     }
   }
 
