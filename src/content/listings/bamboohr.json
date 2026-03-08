@@ -2,15 +2,42 @@
   "name": "BambooHR",
   "slug": "bamboohr",
   "tagline": "All-in-one HR software with AI-enhanced people management",
-  "description": "BambooHR is a comprehensive HR platform designed for small and medium businesses. It combines core HR functions—employee records, time-off tracking, onboarding, and reporting—with AI-powered insights. BambooHR's automated workflows streamline onboarding, offboarding, and approvals, while its analytics provide actionable workforce insights on turnover, headcount, and employee satisfaction.",
+  "description": "BambooHR is a centralized human resources platform that helps small and medium-sized businesses manage their entire employee lifecycle efficiently. It replaces scattered spreadsheets and manual processes with a single, secure system for core HR administration. The software is specifically designed for SMBs and growing companies that need to professionalize their HR operations without excessive complexity.\n\nKey features include a thorough employee database for records and documents, a configurable time-off tracking and approval system, and structured onboarding and offboarding checklists. Standout features are its automated workflows, which route tasks like approvals and document signatures automatically, and its analytics suite, which compiles data on metrics like turnover and headcount into clear, actionable reports. The platform also offers performance management modules and integrates with many popular payroll and business software.\n\nThe main benefit is the significant reduction of administrative work for HR teams and managers, minimizing errors and ensuring compliance. This allows leadership to focus on strategic initiatives like improving employee experience. For example, a company using BambooHR can set up a fully automated onboarding workflow. When a new hire is added, the system automatically assigns tasks, sends welcome emails and digital paperwork to the employee, alerts IT to set up accounts, and reminds the manager to schedule introductory meetings—all without manual intervention.",
   "category": "HR Administration",
   "subcategory": "HRIS",
   "url": "https://www.bamboohr.com",
-  "pricing": {"model": "paid", "startingPrice": "$5.25/user/mo"},
-  "features": ["Employee self-service portal", "Automated onboarding workflows", "PTO management", "Performance management", "Applicant tracking", "Reporting and analytics", "E-signatures", "Mobile app"],
-  "pros": ["Very user-friendly interface", "Great for SMBs", "Excellent onboarding experience", "Strong customer support"],
-  "cons": ["Limited payroll in some regions", "Fewer advanced AI features", "Customization somewhat limited"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$5.25/user/mo"
+  },
+  "features": [
+    "Employee self-service portal",
+    "Automated onboarding workflows",
+    "PTO management",
+    "Performance management",
+    "Applicant tracking",
+    "Reporting and analytics",
+    "E-signatures",
+    "Mobile app"
+  ],
+  "pros": [
+    "Very user-friendly interface",
+    "Great for SMBs",
+    "Excellent onboarding experience",
+    "Strong customer support"
+  ],
+  "cons": [
+    "Limited payroll in some regions",
+    "Fewer advanced AI features",
+    "Customization somewhat limited"
+  ],
   "rating": 4.5,
   "lastUpdated": "2026-02-23",
-  "tags": ["hris", "smb", "onboarding", "employee-management", "hr-platform"]
+  "tags": [
+    "hris",
+    "smb",
+    "onboarding",
+    "employee-management",
+    "hr-platform"
+  ]
 }
