@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import AISearch from '../components/AISearch.astro';
 
 interface Props {
   title: string;
@@ -86,6 +87,7 @@ const siteUrl = import.meta.env.SITE || 'https://example.com';
     </nav>
 
     <main class="mx-auto max-w-6xl px-4 py-8">
+      <AISearch />
       <slot />
     </main>
 
