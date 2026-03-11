@@ -11,7 +11,8 @@ interface Props {
 }
 
 const { title, description, canonical, ogImage, schema } = Astro.props;
-const siteUrl = import.meta.env.SITE || 'https://example.com';
+const siteUrl = import.meta.env.SITE || 'https://hrai.tools';
+const canonicalURL = canonical || new URL(Astro.url.pathname, siteUrl).href;
 ---
 
 <!doctype html>
@@ -22,13 +23,13 @@ const siteUrl = import.meta.env.SITE || 'https://example.com';
     <meta name="google-site-verification" content="iv927-nyIQPRSYljvYThfCyzZWCYOpVjMFhQGCTfzSg" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical || Astro.url.href} />
+    <link rel="canonical" href={canonicalURL} />
 
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content={canonical || Astro.url.href} />
+    <meta property="og:url" content={canonicalURL} />
     {ogImage && <meta property="og:image" content={ogImage} />}
 
     <!-- Twitter -->
