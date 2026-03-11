@@ -50,12 +50,21 @@ const faqSchema = {
     }
   ]
 };
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best AI HR Tools 2026",
+  "description": "Compare and review the top 27 tools in this category",
+  "numberOfItems": 27,
+  "url": "https://hrai.tools"
+};
 ---
 
 <BaseLayout
   title="27 Best AI HR Tools (2026) - Performance Management & Employee Feedback"
   description="Compare AI-powered HR platforms: performance reviews, employee engagement, payroll automation. Lattice vs 15Five vs BambooHR alternatives."
-  schema={schema}
+  schema={itemListSchema}
 >
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 
