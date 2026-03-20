@@ -17,6 +17,8 @@ export async function getStaticPaths() {
 
 const { category, listings } = Astro.props;
 ---
+export const prerender = true;
+
 
 <BaseLayout
   title={`Best ${category} Tools - Compare & Review`}
