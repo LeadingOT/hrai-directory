@@ -60,4 +60,4 @@ User-agent: ImagesiftBot
 Allow: /
 Disallow: /api/
 
-Sitemap: https://hrai.tools/sitemap.xml
+Sitemap: https://hrai.tools/sitemap-index.xml
