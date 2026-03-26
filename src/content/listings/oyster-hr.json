@@ -6,11 +6,40 @@
   "category": "Payroll & Benefits",
   "subcategory": "Global Employment",
   "url": "https://www.oysterhr.com",
-  "pricing": {"model": "paid", "startingPrice": "$29/contractor/mo, $599/employee/mo"},
-  "features": ["Employer of Record in 180+ countries", "AI-powered compliance engine", "Global payroll in local currencies", "Automated contract generation", "Benefits administration by country", "Equity and stock option management", "Time-off management", "Expense management"],
-  "pros": ["Vast country coverage", "Simplifies complex global compliance", "Clean and intuitive interface", "Strong contractor management"],
-  "cons": ["Expensive per-employee pricing", "Benefits options vary by country", "Limited customization for large enterprises"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$29/contractor/mo, $599/employee/mo"
+  },
+  "features": [
+    "Employer of Record in 180+ countries",
+    "AI-powered compliance engine",
+    "Global payroll in local currencies",
+    "Automated contract generation",
+    "Benefits administration by country",
+    "Equity and stock option management",
+    "Time-off management",
+    "Expense management"
+  ],
+  "pros": [
+    "Vast country coverage",
+    "Simplifies complex global compliance",
+    "Clean and intuitive interface",
+    "Strong contractor management"
+  ],
+  "cons": [
+    "Expensive per-employee pricing",
+    "Benefits options vary by country",
+    "Limited customization for large enterprises"
+  ],
   "rating": 4.4,
   "lastUpdated": "2026-02-24",
-  "tags": ["global-employment", "eor", "payroll", "compliance", "remote-work"]
+  "tags": [
+    "global-employment",
+    "eor",
+    "payroll",
+    "compliance",
+    "remote-work"
+  ],
+  "seoTitle": "Oyster HR: Simplifying Global Hiring in 2026 | Find Out How",
+  "seoDescription": "Discover how Oyster HR can streamline your international hiring. Unlock global talent effortlessly—explore the benefits now!"
 }

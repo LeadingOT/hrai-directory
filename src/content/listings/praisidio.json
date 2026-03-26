@@ -6,11 +6,40 @@
   "category": "Workforce Analytics",
   "subcategory": "Retention Analytics",
   "url": "https://www.praisidio.com",
-  "pricing": {"model": "paid", "startingPrice": "$5/employee/mo"},
-  "features": ["AI attrition prediction", "Retention action recommendations", "Real-time dashboards", "Flight risk scoring", "Manager alerts", "Workforce segmentation", "Quick HRIS integration", "ROI tracking"],
-  "pros": ["Extremely fast setup", "Strong prediction accuracy", "Actionable recommendations", "Cost-effective"],
-  "cons": ["Focused mainly on retention", "Newer company", "Limited non-analytics features"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$5/employee/mo"
+  },
+  "features": [
+    "AI attrition prediction",
+    "Retention action recommendations",
+    "Real-time dashboards",
+    "Flight risk scoring",
+    "Manager alerts",
+    "Workforce segmentation",
+    "Quick HRIS integration",
+    "ROI tracking"
+  ],
+  "pros": [
+    "Extremely fast setup",
+    "Strong prediction accuracy",
+    "Actionable recommendations",
+    "Cost-effective"
+  ],
+  "cons": [
+    "Focused mainly on retention",
+    "Newer company",
+    "Limited non-analytics features"
+  ],
   "rating": 4.3,
   "lastUpdated": "2026-02-23",
-  "tags": ["people-analytics", "attrition-prediction", "retention", "workforce-analytics", "dashboard"]
+  "tags": [
+    "people-analytics",
+    "attrition-prediction",
+    "retention",
+    "workforce-analytics",
+    "dashboard"
+  ],
+  "seoTitle": "Praisidio 2026: The Game Changer in Employee Retention?",
+  "seoDescription": "Discover how Praisidio's AI-driven insights can reduce turnover rates. See why HR leaders are making the switch today!"
 }

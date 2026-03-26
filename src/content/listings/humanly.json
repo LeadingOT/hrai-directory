@@ -6,11 +6,40 @@
   "category": "Recruiting & Hiring",
   "subcategory": "Conversational Recruiting",
   "url": "https://www.humanly.io",
-  "pricing": {"model": "paid", "startingPrice": "$1,000/mo"},
-  "features": ["AI candidate screening", "Automated scheduling", "Bias-reduction algorithms", "Interview note generation", "Sentiment analysis", "Multi-channel chatbot", "ATS integration", "Analytics dashboard"],
-  "pros": ["Strong focus on equitable hiring", "Good AI screening accuracy", "Saves recruiter time", "Easy integration"],
-  "cons": ["Less known than larger competitors", "Limited to recruiting use case", "Pricing may be high for small teams"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$1,000/mo"
+  },
+  "features": [
+    "AI candidate screening",
+    "Automated scheduling",
+    "Bias-reduction algorithms",
+    "Interview note generation",
+    "Sentiment analysis",
+    "Multi-channel chatbot",
+    "ATS integration",
+    "Analytics dashboard"
+  ],
+  "pros": [
+    "Strong focus on equitable hiring",
+    "Good AI screening accuracy",
+    "Saves recruiter time",
+    "Easy integration"
+  ],
+  "cons": [
+    "Less known than larger competitors",
+    "Limited to recruiting use case",
+    "Pricing may be high for small teams"
+  ],
   "rating": 4.2,
   "lastUpdated": "2026-02-23",
-  "tags": ["recruiting", "conversational-ai", "bias-reduction", "screening", "scheduling"]
+  "tags": [
+    "recruiting",
+    "conversational-ai",
+    "bias-reduction",
+    "screening",
+    "scheduling"
+  ],
+  "seoTitle": "Humanly: Revolutionizing Hiring in 2026? Key Insights",
+  "seoDescription": "Unlock equitable hiring with Humanly’s AI! Discover how it transforms your recruitment process. Click to learn more."
 }

@@ -6,11 +6,39 @@
   "category": "Performance Management",
   "subcategory": "Performance Enablement",
   "url": "https://www.betterworks.com",
-  "pricing": {"model": "enterprise"},
-  "features": ["AI review generation", "Continuous feedback", "Goal alignment (OKRs)", "Calibration tools", "Engagement surveys", "Manager insights", "Career development", "Analytics"],
-  "pros": ["Strong continuous feedback approach", "Good goal alignment tools", "AI saves managers time", "Clean interface"],
-  "cons": ["Enterprise pricing", "Limited standalone HR features", "Integration options could expand"],
+  "pricing": {
+    "model": "enterprise"
+  },
+  "features": [
+    "AI review generation",
+    "Continuous feedback",
+    "Goal alignment (OKRs)",
+    "Calibration tools",
+    "Engagement surveys",
+    "Manager insights",
+    "Career development",
+    "Analytics"
+  ],
+  "pros": [
+    "Strong continuous feedback approach",
+    "Good goal alignment tools",
+    "AI saves managers time",
+    "Clean interface"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Limited standalone HR features",
+    "Integration options could expand"
+  ],
   "rating": 4.3,
   "lastUpdated": "2026-02-23",
-  "tags": ["performance-management", "continuous-feedback", "goals", "okr", "manager-tools"]
+  "tags": [
+    "performance-management",
+    "continuous-feedback",
+    "goals",
+    "okr",
+    "manager-tools"
+  ],
+  "seoTitle": "Betterworks: Top AI Performance Management Tool in 2026",
+  "seoDescription": "Discover how Betterworks drives continuous growth. Explore features, pricing, and why teams love it. Find out more!"
 }

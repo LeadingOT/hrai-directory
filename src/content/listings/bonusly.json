@@ -6,11 +6,40 @@
   "category": "Employee Engagement",
   "subcategory": "Recognition & Rewards",
   "url": "https://bonusly.com",
-  "pricing": {"model": "paid", "startingPrice": "$2/user/mo"},
-  "features": ["Peer-to-peer recognition", "AI-powered engagement analytics", "Customizable reward catalog", "Company values alignment", "Manager insights dashboard", "Slack and Teams integration", "Automated milestones and birthdays", "Public recognition feed"],
-  "pros": ["Very affordable per-user pricing", "Drives real cultural change", "Easy adoption with chat integrations", "Rich analytics for managers"],
-  "cons": ["Focused only on recognition", "Reward catalog varies by region", "Can feel gamified if not managed well"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$2/user/mo"
+  },
+  "features": [
+    "Peer-to-peer recognition",
+    "AI-powered engagement analytics",
+    "Customizable reward catalog",
+    "Company values alignment",
+    "Manager insights dashboard",
+    "Slack and Teams integration",
+    "Automated milestones and birthdays",
+    "Public recognition feed"
+  ],
+  "pros": [
+    "Very affordable per-user pricing",
+    "Drives real cultural change",
+    "Easy adoption with chat integrations",
+    "Rich analytics for managers"
+  ],
+  "cons": [
+    "Focused only on recognition",
+    "Reward catalog varies by region",
+    "Can feel gamified if not managed well"
+  ],
   "rating": 4.5,
   "lastUpdated": "2026-02-24",
-  "tags": ["employee-engagement", "recognition", "rewards", "culture", "small-business"]
+  "tags": [
+    "employee-engagement",
+    "recognition",
+    "rewards",
+    "culture",
+    "small-business"
+  ],
+  "seoTitle": "Bonusly: The Ultimate Employee Recognition Tool of 2026 | Is It Right for You?",
+  "seoDescription": "Discover Bonusly’s unique rewards system that boosts team morale! Explore its benefits today—can it transform your workplace culture?"
 }

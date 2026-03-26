@@ -6,11 +6,39 @@
   "category": "Payroll & Benefits",
   "subcategory": "Benefits Administration",
   "url": "https://www.navabenefits.com",
-  "pricing": {"model": "paid"},
-  "features": ["AI benefits analysis", "Plan benchmarking", "Cost modeling", "Employee benefits guidance", "Enrollment support", "Compliance monitoring", "Vendor management", "Analytics dashboard"],
-  "pros": ["Expert advisors plus AI", "Strong benchmarking data", "Helps optimize costs", "Modern platform"],
-  "cons": ["Brokerage model may not fit all", "US-focused", "Pricing varies by company size"],
+  "pricing": {
+    "model": "paid"
+  },
+  "features": [
+    "AI benefits analysis",
+    "Plan benchmarking",
+    "Cost modeling",
+    "Employee benefits guidance",
+    "Enrollment support",
+    "Compliance monitoring",
+    "Vendor management",
+    "Analytics dashboard"
+  ],
+  "pros": [
+    "Expert advisors plus AI",
+    "Strong benchmarking data",
+    "Helps optimize costs",
+    "Modern platform"
+  ],
+  "cons": [
+    "Brokerage model may not fit all",
+    "US-focused",
+    "Pricing varies by company size"
+  ],
   "rating": 4.3,
   "lastUpdated": "2026-02-23",
-  "tags": ["benefits", "brokerage", "cost-optimization", "benchmarking", "enrollment"]
+  "tags": [
+    "benefits",
+    "brokerage",
+    "cost-optimization",
+    "benchmarking",
+    "enrollment"
+  ],
+  "seoTitle": "Nava Benefits 2026: Streamline HR with AI-Driven Insights",
+  "seoDescription": "Discover how Nava Benefits can transform your HR operations. Get insights & elevate employee engagement—start your journey today!"
 }

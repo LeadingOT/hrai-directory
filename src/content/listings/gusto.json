@@ -6,11 +6,40 @@
   "category": "Payroll & Benefits",
   "subcategory": "Payroll",
   "url": "https://gusto.com",
-  "pricing": {"model": "paid", "startingPrice": "$40/mo + $6/person"},
-  "features": ["Automated payroll processing", "Tax filing and compliance", "Benefits administration", "Workers comp management", "Employee self-service", "Time tracking", "Hiring and onboarding", "Financial wellness tools"],
-  "pros": ["Extremely user-friendly", "Excellent for small businesses", "Automated tax handling", "Great benefits marketplace"],
-  "cons": ["Limited for large companies", "Some features cost extra", "Phone support limited on basic plans"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$40/mo + $6/person"
+  },
+  "features": [
+    "Automated payroll processing",
+    "Tax filing and compliance",
+    "Benefits administration",
+    "Workers comp management",
+    "Employee self-service",
+    "Time tracking",
+    "Hiring and onboarding",
+    "Financial wellness tools"
+  ],
+  "pros": [
+    "Extremely user-friendly",
+    "Excellent for small businesses",
+    "Automated tax handling",
+    "Great benefits marketplace"
+  ],
+  "cons": [
+    "Limited for large companies",
+    "Some features cost extra",
+    "Phone support limited on basic plans"
+  ],
   "rating": 4.6,
   "lastUpdated": "2026-02-23",
-  "tags": ["payroll", "benefits", "small-business", "tax-filing", "compliance"]
+  "tags": [
+    "payroll",
+    "benefits",
+    "small-business",
+    "tax-filing",
+    "compliance"
+  ],
+  "seoTitle": "Gusto: The Top AI Payroll Solution for Small Biz in 2026?",
+  "seoDescription": "Discover how Gusto simplifies payroll and benefits for small businesses. Is it the right tool for you? Get started today!"
 }

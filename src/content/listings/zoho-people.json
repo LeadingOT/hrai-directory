@@ -6,11 +6,41 @@
   "category": "Core HR",
   "subcategory": "HRIS",
   "url": "https://www.zoho.com/people/",
-  "pricing": {"model": "freemium", "startingPrice": "Free up to 5 users, $1.25/user/mo"},
-  "features": ["AI assistant Zia for HR queries", "Automated attendance and leave management", "Performance appraisal workflows", "Employee self-service portal", "Custom forms and workflows", "Time and shift scheduling", "HR analytics dashboards", "Mobile app"],
-  "pros": ["Very affordable pricing with free tier", "Excellent Zoho ecosystem integration", "Highly customizable workflows", "Great for small to mid-size businesses"],
-  "cons": ["UI can feel dated", "Advanced analytics require higher plans", "Limited recruiting features built-in"],
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "Free up to 5 users, $1.25/user/mo"
+  },
+  "features": [
+    "AI assistant Zia for HR queries",
+    "Automated attendance and leave management",
+    "Performance appraisal workflows",
+    "Employee self-service portal",
+    "Custom forms and workflows",
+    "Time and shift scheduling",
+    "HR analytics dashboards",
+    "Mobile app"
+  ],
+  "pros": [
+    "Very affordable pricing with free tier",
+    "Excellent Zoho ecosystem integration",
+    "Highly customizable workflows",
+    "Great for small to mid-size businesses"
+  ],
+  "cons": [
+    "UI can feel dated",
+    "Advanced analytics require higher plans",
+    "Limited recruiting features built-in"
+  ],
   "rating": 4.3,
   "lastUpdated": "2026-02-24",
-  "tags": ["hris", "core-hr", "small-business", "free", "attendance", "leave-management"]
+  "tags": [
+    "hris",
+    "core-hr",
+    "small-business",
+    "free",
+    "attendance",
+    "leave-management"
+  ],
+  "seoTitle": "Zoho People: Top HR Tool for 2026 | Our Verdict Inside",
+  "seoDescription": "Discover how Zoho People transforms HR with AI automation. Ready to optimize your team's performance? Learn more!"
 }

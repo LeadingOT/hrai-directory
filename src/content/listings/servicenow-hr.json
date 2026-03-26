@@ -6,11 +6,39 @@
   "category": "HR Administration",
   "subcategory": "Service Delivery",
   "url": "https://www.servicenow.com/products/hr-service-delivery.html",
-  "pricing": {"model": "enterprise"},
-  "features": ["AI virtual agent", "Case management automation", "Employee service center", "Knowledge management", "Onboarding orchestration", "Cross-department workflows", "Document management", "Analytics and reporting"],
-  "pros": ["Excellent for large enterprises", "Strong cross-department integration", "Powerful automation engine", "Mature AI capabilities"],
-  "cons": ["Very expensive", "Complex implementation", "Overkill for SMBs"],
+  "pricing": {
+    "model": "enterprise"
+  },
+  "features": [
+    "AI virtual agent",
+    "Case management automation",
+    "Employee service center",
+    "Knowledge management",
+    "Onboarding orchestration",
+    "Cross-department workflows",
+    "Document management",
+    "Analytics and reporting"
+  ],
+  "pros": [
+    "Excellent for large enterprises",
+    "Strong cross-department integration",
+    "Powerful automation engine",
+    "Mature AI capabilities"
+  ],
+  "cons": [
+    "Very expensive",
+    "Complex implementation",
+    "Overkill for SMBs"
+  ],
   "rating": 4.4,
   "lastUpdated": "2026-02-23",
-  "tags": ["enterprise", "service-delivery", "case-management", "virtual-agent", "automation"]
+  "tags": [
+    "enterprise",
+    "service-delivery",
+    "case-management",
+    "virtual-agent",
+    "automation"
+  ],
+  "seoTitle": "ServiceNow HR Service Delivery: Transform HR in 2026!",
+  "seoDescription": "Discover how ServiceNow HR Service Delivery streamlines employee support. Elevate your HR function today—click to see how!"
 }

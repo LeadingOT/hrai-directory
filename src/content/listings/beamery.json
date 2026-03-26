@@ -6,11 +6,40 @@
   "category": "Talent Management",
   "subcategory": "Talent CRM",
   "url": "https://beamery.com",
-  "pricing": {"model": "paid", "startingPrice": "Contact for pricing"},
-  "features": ["TalentGPT AI assistant", "Skills intelligence engine", "Talent CRM and pipeline management", "Workforce planning and analytics", "Internal mobility marketplace", "Compliance and data privacy tools", "Candidate engagement automation", "Integration with major HCM suites"],
-  "pros": ["Powerful AI-driven talent insights", "Unified talent lifecycle view", "Strong enterprise security and compliance", "Excellent skills mapping capabilities"],
-  "cons": ["Enterprise-only pricing", "Steep learning curve", "Requires significant data for best results"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "Contact for pricing"
+  },
+  "features": [
+    "TalentGPT AI assistant",
+    "Skills intelligence engine",
+    "Talent CRM and pipeline management",
+    "Workforce planning and analytics",
+    "Internal mobility marketplace",
+    "Compliance and data privacy tools",
+    "Candidate engagement automation",
+    "Integration with major HCM suites"
+  ],
+  "pros": [
+    "Powerful AI-driven talent insights",
+    "Unified talent lifecycle view",
+    "Strong enterprise security and compliance",
+    "Excellent skills mapping capabilities"
+  ],
+  "cons": [
+    "Enterprise-only pricing",
+    "Steep learning curve",
+    "Requires significant data for best results"
+  ],
   "rating": 4.4,
   "lastUpdated": "2026-02-24",
-  "tags": ["talent-management", "talent-crm", "enterprise", "skills-intelligence", "workforce-planning"]
+  "tags": [
+    "talent-management",
+    "talent-crm",
+    "enterprise",
+    "skills-intelligence",
+    "workforce-planning"
+  ],
+  "seoTitle": "Beamery: Transform Your Talent Management in 2026",
+  "seoDescription": "Unlock seamless talent lifecycle management with Beamery's AI tools. Discover why enterprises choose Beamery! Explore now!"
 }

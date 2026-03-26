@@ -6,11 +6,40 @@
   "category": "Performance Management",
   "subcategory": "Continuous Feedback",
   "url": "https://www.15five.com",
-  "pricing": {"model": "paid", "startingPrice": "$4/user/mo"},
-  "features": ["Weekly check-ins with AI analysis", "OKR tracking", "AI review generation", "Engagement surveys", "1:1 meeting agendas", "High-five recognition", "Calibration tools", "Manager effectiveness analytics"],
-  "pros": ["Affordable pricing", "Great continuous feedback model", "Easy for employees to adopt", "Strong manager tools"],
-  "cons": ["Less comprehensive than full HCM platforms", "Analytics could be deeper", "Limited customization"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$4/user/mo"
+  },
+  "features": [
+    "Weekly check-ins with AI analysis",
+    "OKR tracking",
+    "AI review generation",
+    "Engagement surveys",
+    "1:1 meeting agendas",
+    "High-five recognition",
+    "Calibration tools",
+    "Manager effectiveness analytics"
+  ],
+  "pros": [
+    "Affordable pricing",
+    "Great continuous feedback model",
+    "Easy for employees to adopt",
+    "Strong manager tools"
+  ],
+  "cons": [
+    "Less comprehensive than full HCM platforms",
+    "Analytics could be deeper",
+    "Limited customization"
+  ],
   "rating": 4.4,
   "lastUpdated": "2026-02-23",
-  "tags": ["performance-management", "feedback", "check-ins", "okr", "recognition"]
+  "tags": [
+    "performance-management",
+    "feedback",
+    "check-ins",
+    "okr",
+    "recognition"
+  ],
+  "seoTitle": "15Five: Unlock Your Team's Potential in 2026 | Performance Insights",
+  "seoDescription": "Discover how 15Five transforms feedback into action! Boost engagement and elevate performance. Learn more now."
 }

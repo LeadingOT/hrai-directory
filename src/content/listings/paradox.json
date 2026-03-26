@@ -6,11 +6,39 @@
   "category": "Recruiting & Hiring",
   "subcategory": "Conversational AI",
   "url": "https://www.paradox.ai",
-  "pricing": {"model": "enterprise"},
-  "features": ["Conversational AI screening", "Automated interview scheduling", "Multi-language support", "SMS and WhatsApp recruiting", "Document collection", "Career site chatbot", "High-volume hiring automation", "CRM integration"],
-  "pros": ["Dramatically speeds up hiring", "Excellent candidate experience", "24/7 availability", "Great for high-volume roles"],
-  "cons": ["Enterprise pricing only", "Best suited for high-volume hiring", "Less effective for specialized roles"],
+  "pricing": {
+    "model": "enterprise"
+  },
+  "features": [
+    "Conversational AI screening",
+    "Automated interview scheduling",
+    "Multi-language support",
+    "SMS and WhatsApp recruiting",
+    "Document collection",
+    "Career site chatbot",
+    "High-volume hiring automation",
+    "CRM integration"
+  ],
+  "pros": [
+    "Dramatically speeds up hiring",
+    "Excellent candidate experience",
+    "24/7 availability",
+    "Great for high-volume roles"
+  ],
+  "cons": [
+    "Enterprise pricing only",
+    "Best suited for high-volume hiring",
+    "Less effective for specialized roles"
+  ],
   "rating": 4.7,
   "lastUpdated": "2026-02-23",
-  "tags": ["recruiting", "conversational-ai", "chatbot", "high-volume-hiring", "scheduling"]
+  "tags": [
+    "recruiting",
+    "conversational-ai",
+    "chatbot",
+    "high-volume-hiring",
+    "scheduling"
+  ],
+  "seoTitle": "Paradox (Olivia): The Ultimate AI Recruiter of 2026?",
+  "seoDescription": "Discover how Paradox (Olivia) transforms recruiting workflows! Unlock its secrets and see if it's the right fit for you."
 }

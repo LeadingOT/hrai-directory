@@ -6,11 +6,39 @@
   "category": "Learning & Development",
   "subcategory": "Talent Management",
   "url": "https://www.cornerstoneondemand.com",
-  "pricing": {"model": "enterprise"},
-  "features": ["AI skills mapping", "Personalized learning paths", "Content curation engine", "Succession planning", "Performance management", "Compliance training", "Skills intelligence", "Workforce agility tools"],
-  "pros": ["Comprehensive talent management", "Excellent content library", "Strong skills intelligence", "Good compliance tools"],
-  "cons": ["Complex pricing structure", "UI can feel overwhelming", "Long implementation cycles"],
+  "pricing": {
+    "model": "enterprise"
+  },
+  "features": [
+    "AI skills mapping",
+    "Personalized learning paths",
+    "Content curation engine",
+    "Succession planning",
+    "Performance management",
+    "Compliance training",
+    "Skills intelligence",
+    "Workforce agility tools"
+  ],
+  "pros": [
+    "Comprehensive talent management",
+    "Excellent content library",
+    "Strong skills intelligence",
+    "Good compliance tools"
+  ],
+  "cons": [
+    "Complex pricing structure",
+    "UI can feel overwhelming",
+    "Long implementation cycles"
+  ],
   "rating": 4.3,
   "lastUpdated": "2026-02-23",
-  "tags": ["learning", "talent-management", "skills", "content-curation", "compliance"]
+  "tags": [
+    "learning",
+    "talent-management",
+    "skills",
+    "content-curation",
+    "compliance"
+  ],
+  "seoTitle": "Cornerstone OnDemand: Top Talent Management Tool of 2026?",
+  "seoDescription": "Explore how Cornerstone OnDemand enhances your team's growth and learning. Discover its unique features and decide if it's right for you!"
 }

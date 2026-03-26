@@ -6,11 +6,41 @@
   "category": "Recruiting",
   "subcategory": "Sourcing",
   "url": "https://fetcher.ai",
-  "pricing": {"model": "freemium", "startingPrice": "Free tier available, paid from $149/mo"},
-  "features": ["AI-powered candidate sourcing", "Automated email outreach sequences", "Diversity analytics and reporting", "Candidate pipeline management", "Performance analytics", "ATS integrations", "Team collaboration tools", "Calibration feedback loops"],
-  "pros": ["Saves significant sourcing time", "Good diversity-focused features", "Free tier for small teams", "Human-reviewed candidate quality"],
-  "cons": ["Email outreach can feel templated", "Smaller candidate database than LinkedIn", "Best results require calibration period"],
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "Free tier available, paid from $149/mo"
+  },
+  "features": [
+    "AI-powered candidate sourcing",
+    "Automated email outreach sequences",
+    "Diversity analytics and reporting",
+    "Candidate pipeline management",
+    "Performance analytics",
+    "ATS integrations",
+    "Team collaboration tools",
+    "Calibration feedback loops"
+  ],
+  "pros": [
+    "Saves significant sourcing time",
+    "Good diversity-focused features",
+    "Free tier for small teams",
+    "Human-reviewed candidate quality"
+  ],
+  "cons": [
+    "Email outreach can feel templated",
+    "Smaller candidate database than LinkedIn",
+    "Best results require calibration period"
+  ],
   "rating": 4.2,
   "lastUpdated": "2026-02-24",
-  "tags": ["recruiting", "sourcing", "outreach", "diversity", "free", "small-business"]
+  "tags": [
+    "recruiting",
+    "sourcing",
+    "outreach",
+    "diversity",
+    "free",
+    "small-business"
+  ],
+  "seoTitle": "Fetcher: Revolutionizing Recruiting Automation in 2026!",
+  "seoDescription": "Discover how Fetcher's AI-driven sourcing can transform your recruiting process. Try it now for seamless outreach!"
 }

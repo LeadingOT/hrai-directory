@@ -6,11 +6,40 @@
   "category": "Employee Engagement",
   "subcategory": "Talent Management",
   "url": "https://engagedly.com",
-  "pricing": {"model": "paid", "startingPrice": "$5/user/mo"},
-  "features": ["Marissa AI assistant", "Performance reviews", "OKR management", "Learning management", "Employee recognition", "360 feedback", "Mentoring platform", "Analytics"],
-  "pros": ["Affordable pricing", "AI assistant is helpful", "Good learning features", "Strong recognition tools"],
-  "cons": ["UI could be more modern", "Less known brand", "Some features feel basic"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$5/user/mo"
+  },
+  "features": [
+    "Marissa AI assistant",
+    "Performance reviews",
+    "OKR management",
+    "Learning management",
+    "Employee recognition",
+    "360 feedback",
+    "Mentoring platform",
+    "Analytics"
+  ],
+  "pros": [
+    "Affordable pricing",
+    "AI assistant is helpful",
+    "Good learning features",
+    "Strong recognition tools"
+  ],
+  "cons": [
+    "UI could be more modern",
+    "Less known brand",
+    "Some features feel basic"
+  ],
   "rating": 4.2,
   "lastUpdated": "2026-02-23",
-  "tags": ["talent-management", "engagement", "performance", "learning", "recognition"]
+  "tags": [
+    "talent-management",
+    "engagement",
+    "performance",
+    "learning",
+    "recognition"
+  ],
+  "seoTitle": "Engagedly: Transform Your Talent Management in 2026",
+  "seoDescription": "Discover how Engagedly's AI-driven tools can revolutionize employee engagement. Try it today!"
 }

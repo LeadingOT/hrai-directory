@@ -6,11 +6,39 @@
   "category": "HR Administration",
   "subcategory": "Employee Relations",
   "url": "https://www.hracuity.com",
-  "pricing": {"model": "enterprise"},
-  "features": ["AI case analysis", "Bias reduction tools", "Investigation management", "Consistent documentation", "Risk pattern detection", "Reporting and analytics", "Compliance tracking", "Benchmarking"],
-  "pros": ["Purpose-built for ER", "Strong bias reduction", "Excellent documentation tools", "Data never used to train AI"],
-  "cons": ["Narrow focus area", "Enterprise pricing", "Requires ER maturity to maximize value"],
+  "pricing": {
+    "model": "enterprise"
+  },
+  "features": [
+    "AI case analysis",
+    "Bias reduction tools",
+    "Investigation management",
+    "Consistent documentation",
+    "Risk pattern detection",
+    "Reporting and analytics",
+    "Compliance tracking",
+    "Benchmarking"
+  ],
+  "pros": [
+    "Purpose-built for ER",
+    "Strong bias reduction",
+    "Excellent documentation tools",
+    "Data never used to train AI"
+  ],
+  "cons": [
+    "Narrow focus area",
+    "Enterprise pricing",
+    "Requires ER maturity to maximize value"
+  ],
   "rating": 4.4,
   "lastUpdated": "2026-02-23",
-  "tags": ["employee-relations", "investigations", "compliance", "bias-reduction", "case-management"]
+  "tags": [
+    "employee-relations",
+    "investigations",
+    "compliance",
+    "bias-reduction",
+    "case-management"
+  ],
+  "seoTitle": "HR Acuity: The Top Employee Relations Tool of 2026",
+  "seoDescription": "Discover how HR Acuity streamlines employee relations. Get insights and maximize your workforce potential today!"
 }

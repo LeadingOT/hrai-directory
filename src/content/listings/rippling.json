@@ -6,11 +6,40 @@
   "category": "HR Administration",
   "subcategory": "Workforce Management",
   "url": "https://www.rippling.com",
-  "pricing": {"model": "paid", "startingPrice": "$8/user/mo"},
-  "features": ["Automated onboarding workflows", "AI-powered payroll processing", "Benefits administration", "Device and app management", "Compliance automation", "Time and attendance tracking", "Global workforce support", "Custom reporting and analytics"],
-  "pros": ["Unified platform reduces tool sprawl", "Excellent automation capabilities", "Intuitive modern interface", "Strong integrations ecosystem"],
-  "cons": ["Pricing can add up with modules", "Overkill for very small teams", "Some advanced features require premium tiers"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$8/user/mo"
+  },
+  "features": [
+    "Automated onboarding workflows",
+    "AI-powered payroll processing",
+    "Benefits administration",
+    "Device and app management",
+    "Compliance automation",
+    "Time and attendance tracking",
+    "Global workforce support",
+    "Custom reporting and analytics"
+  ],
+  "pros": [
+    "Unified platform reduces tool sprawl",
+    "Excellent automation capabilities",
+    "Intuitive modern interface",
+    "Strong integrations ecosystem"
+  ],
+  "cons": [
+    "Pricing can add up with modules",
+    "Overkill for very small teams",
+    "Some advanced features require premium tiers"
+  ],
   "rating": 4.7,
   "lastUpdated": "2026-02-23",
-  "tags": ["hr-platform", "payroll", "onboarding", "workforce-management", "automation"]
+  "tags": [
+    "hr-platform",
+    "payroll",
+    "onboarding",
+    "workforce-management",
+    "automation"
+  ],
+  "seoTitle": "Rippling: Unlock Seamless HR & IT Integration in 2026!",
+  "seoDescription": "Discover how Rippling's all-in-one platform streamlines workflows. Explore features & get started today for smarter management!"
 }

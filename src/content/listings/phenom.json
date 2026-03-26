@@ -6,11 +6,39 @@
   "category": "Recruiting & Hiring",
   "subcategory": "Talent Experience",
   "url": "https://www.phenom.com",
-  "pricing": {"model": "enterprise"},
-  "features": ["AI-personalized career sites", "Intelligent candidate matching", "Chatbot for candidates", "Internal mobility marketplace", "Employee experience tools", "Recruiter CRM", "Analytics and reporting", "Talent marketplace"],
-  "pros": ["Comprehensive talent experience", "Strong personalization engine", "Excellent career site tools", "Good internal mobility features"],
-  "cons": ["Enterprise pricing", "Full value requires multiple modules", "Implementation timeline can be long"],
+  "pricing": {
+    "model": "enterprise"
+  },
+  "features": [
+    "AI-personalized career sites",
+    "Intelligent candidate matching",
+    "Chatbot for candidates",
+    "Internal mobility marketplace",
+    "Employee experience tools",
+    "Recruiter CRM",
+    "Analytics and reporting",
+    "Talent marketplace"
+  ],
+  "pros": [
+    "Comprehensive talent experience",
+    "Strong personalization engine",
+    "Excellent career site tools",
+    "Good internal mobility features"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Full value requires multiple modules",
+    "Implementation timeline can be long"
+  ],
   "rating": 4.4,
   "lastUpdated": "2026-02-23",
-  "tags": ["talent-experience", "recruiting", "career-site", "personalization", "employee-experience"]
+  "tags": [
+    "talent-experience",
+    "recruiting",
+    "career-site",
+    "personalization",
+    "employee-experience"
+  ],
+  "seoTitle": "Phenom: Transforming Employee Experience in 2026",
+  "seoDescription": "Explore Phenom’s AI-driven features to enhance employee journeys. Uncover how it can boost talent engagement today!"
 }

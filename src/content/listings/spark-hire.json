@@ -6,11 +6,40 @@
   "category": "Recruiting",
   "subcategory": "Video Interviewing",
   "url": "https://www.sparkhire.com",
-  "pricing": {"model": "paid", "startingPrice": "$149/mo"},
-  "features": ["One-way video interviews", "Live video interviewing", "AI-powered candidate evaluation", "Team collaboration and scoring", "Branded interview experiences", "ATS integrations", "Automated scheduling", "Interview analytics"],
-  "pros": ["Dramatically reduces screening time", "Easy to use for candidates and recruiters", "Affordable compared to competitors", "Good ATS integration ecosystem"],
-  "cons": ["AI evaluation features still maturing", "Limited advanced analytics on lower plans", "Video quality depends on candidate setup"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$149/mo"
+  },
+  "features": [
+    "One-way video interviews",
+    "Live video interviewing",
+    "AI-powered candidate evaluation",
+    "Team collaboration and scoring",
+    "Branded interview experiences",
+    "ATS integrations",
+    "Automated scheduling",
+    "Interview analytics"
+  ],
+  "pros": [
+    "Dramatically reduces screening time",
+    "Easy to use for candidates and recruiters",
+    "Affordable compared to competitors",
+    "Good ATS integration ecosystem"
+  ],
+  "cons": [
+    "AI evaluation features still maturing",
+    "Limited advanced analytics on lower plans",
+    "Video quality depends on candidate setup"
+  ],
   "rating": 4.3,
   "lastUpdated": "2026-02-24",
-  "tags": ["recruiting", "video-interviewing", "screening", "hiring", "small-business"]
+  "tags": [
+    "recruiting",
+    "video-interviewing",
+    "screening",
+    "hiring",
+    "small-business"
+  ],
+  "seoTitle": "Spark Hire: Transform Your Hiring in 2026 | Unbiased Insights",
+  "seoDescription": "Discover how Spark Hire's AI video interviewing can streamline your hiring process. Maximize efficiency today!"
 }

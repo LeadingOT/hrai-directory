@@ -6,11 +6,40 @@
   "category": "Recruiting & Hiring",
   "subcategory": "ATS & HR",
   "url": "https://www.workable.com",
-  "pricing": {"model": "paid", "startingPrice": "$149/mo"},
-  "features": ["AI candidate sourcing", "200+ job board posting", "AI job description generator", "Video interviews", "Employee referrals", "Onboarding tools", "E-signatures", "HR management suite"],
-  "pros": ["Affordable for SMBs", "Easy to set up and use", "Strong AI sourcing", "Combined recruiting and HR"],
-  "cons": ["Analytics could be deeper", "Limited customization on lower tiers", "Some features are add-ons"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$149/mo"
+  },
+  "features": [
+    "AI candidate sourcing",
+    "200+ job board posting",
+    "AI job description generator",
+    "Video interviews",
+    "Employee referrals",
+    "Onboarding tools",
+    "E-signatures",
+    "HR management suite"
+  ],
+  "pros": [
+    "Affordable for SMBs",
+    "Easy to set up and use",
+    "Strong AI sourcing",
+    "Combined recruiting and HR"
+  ],
+  "cons": [
+    "Analytics could be deeper",
+    "Limited customization on lower tiers",
+    "Some features are add-ons"
+  ],
   "rating": 4.4,
   "lastUpdated": "2026-02-23",
-  "tags": ["recruiting", "ats", "smb", "sourcing", "job-posting"]
+  "tags": [
+    "recruiting",
+    "ats",
+    "smb",
+    "sourcing",
+    "job-posting"
+  ],
+  "seoTitle": "Workable: The Ultimate HR Solution for Fast-Growing Teams in 2026",
+  "seoDescription": "Discover how Workable streamlines your hiring process and boosts team performance. Explore features and get started today!"
 }

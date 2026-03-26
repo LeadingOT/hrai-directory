@@ -6,11 +6,40 @@
   "category": "Onboarding",
   "subcategory": "Digital Onboarding",
   "url": "https://talmundo.com",
-  "pricing": {"model": "paid", "startingPrice": "$8/user/mo"},
-  "features": ["Gamified onboarding journeys", "AI chatbot assistant", "Personalized content paths", "Task automation", "Multi-language support", "Mobile-first design", "Analytics dashboard", "Integration APIs"],
-  "pros": ["Engaging gamified experience", "Good for global teams", "Mobile-friendly", "Easy to set up"],
-  "cons": ["Smaller vendor", "Limited beyond onboarding", "Fewer enterprise features"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$8/user/mo"
+  },
+  "features": [
+    "Gamified onboarding journeys",
+    "AI chatbot assistant",
+    "Personalized content paths",
+    "Task automation",
+    "Multi-language support",
+    "Mobile-first design",
+    "Analytics dashboard",
+    "Integration APIs"
+  ],
+  "pros": [
+    "Engaging gamified experience",
+    "Good for global teams",
+    "Mobile-friendly",
+    "Easy to set up"
+  ],
+  "cons": [
+    "Smaller vendor",
+    "Limited beyond onboarding",
+    "Fewer enterprise features"
+  ],
   "rating": 4.1,
   "lastUpdated": "2026-02-23",
-  "tags": ["onboarding", "gamification", "mobile", "multilingual", "engagement"]
+  "tags": [
+    "onboarding",
+    "gamification",
+    "mobile",
+    "multilingual",
+    "engagement"
+  ],
+  "seoTitle": "Talmundo: Transform Your Onboarding Experience in 2026",
+  "seoDescription": "Discover how Talmundo's AI-driven onboarding can captivate new hires. Unlock seamless integration today!"
 }

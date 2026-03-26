@@ -6,11 +6,39 @@
   "category": "Learning & Development",
   "subcategory": "LMS",
   "url": "https://www.docebo.com",
-  "pricing": {"model": "enterprise"},
-  "features": ["AI content recommendations", "Auto-tagging and organization", "Virtual coaching", "Skill gap analysis", "Social learning", "Content marketplace", "Compliance training", "Advanced analytics"],
-  "pros": ["Strong AI personalization", "Excellent content management", "Scalable for enterprises", "Good social learning features"],
-  "cons": ["Enterprise pricing", "Initial setup complexity", "Some features require add-ons"],
+  "pricing": {
+    "model": "enterprise"
+  },
+  "features": [
+    "AI content recommendations",
+    "Auto-tagging and organization",
+    "Virtual coaching",
+    "Skill gap analysis",
+    "Social learning",
+    "Content marketplace",
+    "Compliance training",
+    "Advanced analytics"
+  ],
+  "pros": [
+    "Strong AI personalization",
+    "Excellent content management",
+    "Scalable for enterprises",
+    "Good social learning features"
+  ],
+  "cons": [
+    "Enterprise pricing",
+    "Initial setup complexity",
+    "Some features require add-ons"
+  ],
   "rating": 4.4,
   "lastUpdated": "2026-02-23",
-  "tags": ["learning", "lms", "ai-recommendations", "skill-development", "training"]
+  "tags": [
+    "learning",
+    "lms",
+    "ai-recommendations",
+    "skill-development",
+    "training"
+  ],
+  "seoTitle": "Docebo: Transforming Employee Learning in 2026 | Must Read Insights",
+  "seoDescription": "Discover how Docebo's AI-driven platform can revolutionize your team's training. Uncover features, benefits, and more!"
 }

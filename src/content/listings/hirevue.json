@@ -6,11 +6,40 @@
   "category": "Recruiting & Hiring",
   "subcategory": "Assessments",
   "url": "https://www.hirevue.com",
-  "pricing": {"model": "paid", "startingPrice": "$35,000/yr"},
-  "features": ["AI video assessments", "Game-based evaluations", "Coding assessments", "Structured interview builder", "Bias auditing tools", "Candidate ranking", "ATS integrations", "Multi-language support"],
-  "pros": ["Science-backed assessment models", "Reduces time-to-hire significantly", "Strong bias mitigation", "Flexible assessment types"],
-  "cons": ["High entry price", "Some candidates find video interviews impersonal", "Requires internet access"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$35,000/yr"
+  },
+  "features": [
+    "AI video assessments",
+    "Game-based evaluations",
+    "Coding assessments",
+    "Structured interview builder",
+    "Bias auditing tools",
+    "Candidate ranking",
+    "ATS integrations",
+    "Multi-language support"
+  ],
+  "pros": [
+    "Science-backed assessment models",
+    "Reduces time-to-hire significantly",
+    "Strong bias mitigation",
+    "Flexible assessment types"
+  ],
+  "cons": [
+    "High entry price",
+    "Some candidates find video interviews impersonal",
+    "Requires internet access"
+  ],
   "rating": 4.3,
   "lastUpdated": "2026-02-23",
-  "tags": ["recruiting", "video-interviews", "assessments", "ai-screening", "talent-evaluation"]
+  "tags": [
+    "recruiting",
+    "video-interviews",
+    "assessments",
+    "ai-screening",
+    "talent-evaluation"
+  ],
+  "seoTitle": "HireVue 2026: Game-Changer for Video Interviews?",
+  "seoDescription": "Discover how HireVue revolutionizes hiring with AI-driven video assessments. Is it the best fit for your team? Find out now!"
 }

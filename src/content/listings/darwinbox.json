@@ -6,11 +6,40 @@
   "category": "Core HR",
   "subcategory": "HCM",
   "url": "https://darwinbox.com",
-  "pricing": {"model": "paid", "startingPrice": "Contact for pricing"},
-  "features": ["AI-powered resume parsing", "Predictive attrition analytics", "Voice-enabled HR chatbot", "Full payroll automation", "Performance and OKR management", "Learning management system", "Rewards and recognition", "Mobile-first employee app"],
-  "pros": ["Modern mobile-first UX", "Comprehensive all-in-one platform", "Strong AI across modules", "Fast implementation timelines"],
-  "cons": ["Primarily strong in Asia-Pacific market", "Limited third-party integrations vs. competitors", "Pricing not transparent"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "Contact for pricing"
+  },
+  "features": [
+    "AI-powered resume parsing",
+    "Predictive attrition analytics",
+    "Voice-enabled HR chatbot",
+    "Full payroll automation",
+    "Performance and OKR management",
+    "Learning management system",
+    "Rewards and recognition",
+    "Mobile-first employee app"
+  ],
+  "pros": [
+    "Modern mobile-first UX",
+    "Comprehensive all-in-one platform",
+    "Strong AI across modules",
+    "Fast implementation timelines"
+  ],
+  "cons": [
+    "Primarily strong in Asia-Pacific market",
+    "Limited third-party integrations vs. competitors",
+    "Pricing not transparent"
+  ],
   "rating": 4.3,
   "lastUpdated": "2026-02-24",
-  "tags": ["hcm", "core-hr", "enterprise", "payroll", "talent-management"]
+  "tags": [
+    "hcm",
+    "core-hr",
+    "enterprise",
+    "payroll",
+    "talent-management"
+  ],
+  "seoTitle": "Darwinbox: The Ultimate HCM for 2026? | Unbiased Insights",
+  "seoDescription": "Discover how Darwinbox revolutionizes HCM for businesses in 2026. Explore features, pricing, and why it stands out!"
 }

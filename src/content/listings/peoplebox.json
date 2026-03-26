@@ -6,11 +6,40 @@
   "category": "Performance Management",
   "subcategory": "OKR Platform",
   "url": "https://www.peoplebox.ai",
-  "pricing": {"model": "paid", "startingPrice": "$7/user/mo"},
-  "features": ["AI performance reviews", "OKR management", "Engagement surveys", "1:1 meeting tools", "Business review dashboards", "Slack/Teams integration", "Calibration tools", "360 feedback"],
-  "pros": ["Strong OKR-performance connection", "Affordable pricing", "Great Slack integration", "AI-generated reviews save time"],
-  "cons": ["Newer platform, less mature", "Limited HR admin features", "Reporting still evolving"],
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$7/user/mo"
+  },
+  "features": [
+    "AI performance reviews",
+    "OKR management",
+    "Engagement surveys",
+    "1:1 meeting tools",
+    "Business review dashboards",
+    "Slack/Teams integration",
+    "Calibration tools",
+    "360 feedback"
+  ],
+  "pros": [
+    "Strong OKR-performance connection",
+    "Affordable pricing",
+    "Great Slack integration",
+    "AI-generated reviews save time"
+  ],
+  "cons": [
+    "Newer platform, less mature",
+    "Limited HR admin features",
+    "Reporting still evolving"
+  ],
   "rating": 4.3,
   "lastUpdated": "2026-02-23",
-  "tags": ["okr", "performance-management", "engagement", "ai-reviews", "slack"]
+  "tags": [
+    "okr",
+    "performance-management",
+    "engagement",
+    "ai-reviews",
+    "slack"
+  ],
+  "seoTitle": "Peoplebox: Enhance Team Performance in 2026 | Our Verdict",
+  "seoDescription": "Discover how Peoplebox transforms performance management. Boost your team's success! Read our insights and see if it's right for you."
 }
