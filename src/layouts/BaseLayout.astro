@@ -73,7 +73,6 @@ const canonicalURL = canonical || new URL(Astro.url.pathname, siteUrl).href;
     </script>
 
     <!-- Favicon -->
-    {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
     <nav class="border-b border-gray-200 bg-white">
       <div class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
         <a href="/" class="text-xl font-bold" id="site-name">AI Tools for HR</a>
