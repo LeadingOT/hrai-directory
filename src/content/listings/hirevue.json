@@ -7,8 +7,7 @@
   "subcategory": "Assessments",
   "url": "https://www.hirevue.com",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$35,000/yr"
+    "model": "paid"
   },
   "features": [
     "AI video assessments",
@@ -41,5 +40,8 @@
     "talent-evaluation"
   ],
   "seoTitle": "HireVue 2026: Game-Changer for Video Interviews?",
-  "seoDescription": "Discover how HireVue revolutionizes hiring with AI-driven video assessments. Is it the best fit for your team? Find out now!"
+  "seoDescription": "Discover how HireVue revolutionizes hiring with AI-driven video assessments. Is it the best fit for your team? Find out now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.hirevue.com/pricing"
 }

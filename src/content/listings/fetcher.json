@@ -7,8 +7,8 @@
   "subcategory": "Sourcing",
   "url": "https://fetcher.ai",
   "pricing": {
-    "model": "freemium",
-    "startingPrice": "Free tier available, paid from $149/mo"
+    "model": "paid",
+    "startingPrice": "$115/mo"
   },
   "features": [
     "AI-powered candidate sourcing",
@@ -42,5 +42,8 @@
     "small-business"
   ],
   "seoTitle": "Fetcher: Revolutionizing Recruiting Automation in 2026!",
-  "seoDescription": "Discover how Fetcher's AI-driven sourcing can transform your recruiting process. Try it now for seamless outreach!"
+  "seoDescription": "Discover how Fetcher's AI-driven sourcing can transform your recruiting process. Try it now for seamless outreach!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://fetcher.ai/pricing"
 }

@@ -8,7 +8,7 @@
   "url": "https://www.oysterhr.com",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$29/contractor/mo, $599/employee/mo"
+    "startingPrice": "$29/contractor/mo, $699/employee/mo"
   },
   "features": [
     "Employer of Record in 180+ countries",
@@ -41,5 +41,8 @@
     "remote-work"
   ],
   "seoTitle": "Oyster HR: Simplifying Global Hiring in 2026 | Find Out How",
-  "seoDescription": "Discover how Oyster HR can streamline your international hiring. Unlock global talent effortlessly—explore the benefits now!"
+  "seoDescription": "Discover how Oyster HR can streamline your international hiring. Unlock global talent effortlessly—explore the benefits now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.oysterhr.com/pricing"
 }

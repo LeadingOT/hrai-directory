@@ -7,8 +7,7 @@
   "subcategory": "Experience Platform",
   "url": "https://www.cultureamp.com",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$5/user/mo"
+    "model": "paid"
   },
   "features": [
     "AI engagement analytics",
@@ -41,5 +40,8 @@
     "culture"
   ],
   "seoTitle": "Culture Amp: Transform Your Employee Experience in 2026",
-  "seoDescription": "Unlock employee engagement with Culture Amp. Discover its powerful analytics and see how it can elevate your workplace culture today!"
+  "seoDescription": "Unlock employee engagement with Culture Amp. Discover its powerful analytics and see how it can elevate your workplace culture today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.cultureamp.com/pricing"
 }

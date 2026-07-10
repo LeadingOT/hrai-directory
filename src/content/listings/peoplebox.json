@@ -8,7 +8,7 @@
   "url": "https://www.peoplebox.ai",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$7/user/mo"
+    "startingPrice": "$8/employee/mo"
   },
   "features": [
     "AI performance reviews",
@@ -41,5 +41,8 @@
     "slack"
   ],
   "seoTitle": "Peoplebox: Enhance Team Performance in 2026 | Our Verdict",
-  "seoDescription": "Discover how Peoplebox transforms performance management. Boost your team's success! Read our insights and see if it's right for you."
+  "seoDescription": "Discover how Peoplebox transforms performance management. Boost your team's success! Read our insights and see if it's right for you.",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.peoplebox.ai/pricing/"
 }

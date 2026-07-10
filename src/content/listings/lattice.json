@@ -8,7 +8,7 @@
   "url": "https://lattice.com",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$11/user/mo"
+    "startingPrice": "$4/user/mo"
   },
   "features": [
     "AI performance review summaries",
@@ -41,5 +41,8 @@
     "compensation"
   ],
   "seoTitle": "Lattice: Transform Your Team's Performance in 2026!",
-  "seoDescription": "Unlock engagement and boost productivity with Lattice! Discover how this AI-driven platform elevates team performance. Explore more now!"
+  "seoDescription": "Unlock engagement and boost productivity with Lattice! Discover how this AI-driven platform elevates team performance. Explore more now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://lattice.com/pricing"
 }

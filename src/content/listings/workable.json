@@ -8,7 +8,7 @@
   "url": "https://www.workable.com",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$149/mo"
+    "startingPrice": "$299/mo"
   },
   "features": [
     "AI candidate sourcing",
@@ -41,5 +41,8 @@
     "job-posting"
   ],
   "seoTitle": "Workable: The Ultimate HR Solution for Fast-Growing Teams in 2026",
-  "seoDescription": "Discover how Workable streamlines your hiring process and boosts team performance. Explore features and get started today!"
+  "seoDescription": "Discover how Workable streamlines your hiring process and boosts team performance. Explore features and get started today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.workable.com/pricing"
 }

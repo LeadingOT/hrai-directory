@@ -8,7 +8,7 @@
   "url": "https://www.bamboohr.com",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$5.25/user/mo"
+    "startingPrice": "$10/employee/mo"
   },
   "features": [
     "Employee self-service portal",
@@ -41,5 +41,8 @@
     "hr-platform"
   ],
   "seoTitle": "BambooHR: Streamline Your HR Processes in 2026 | Real Insights",
-  "seoDescription": "Discover why BambooHR is a top choice for streamlined HR management. Ready to transform your team’s performance? Explore more!"
+  "seoDescription": "Discover why BambooHR is a top choice for streamlined HR management. Ready to transform your team’s performance? Explore more!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.bamboohr.com/pricing/"
 }

@@ -7,8 +7,7 @@
   "subcategory": "Conversational Recruiting",
   "url": "https://www.humanly.io",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$1,000/mo"
+    "model": "paid"
   },
   "features": [
     "AI candidate screening",
@@ -41,5 +40,8 @@
     "scheduling"
   ],
   "seoTitle": "Humanly: Revolutionizing Hiring in 2026? Key Insights",
-  "seoDescription": "Unlock equitable hiring with Humanly’s AI! Discover how it transforms your recruitment process. Click to learn more."
+  "seoDescription": "Unlock equitable hiring with Humanly’s AI! Discover how it transforms your recruitment process. Click to learn more.",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.humanly.io/"
 }

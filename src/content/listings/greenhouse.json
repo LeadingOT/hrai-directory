@@ -7,8 +7,7 @@
   "subcategory": "Applicant Tracking",
   "url": "https://www.greenhouse.com",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$6,000/yr"
+    "model": "paid"
   },
   "features": [
     "AI candidate sourcing",
@@ -41,5 +40,8 @@
     "structured-hiring"
   ],
   "seoTitle": "Greenhouse: Transform Your Growing Space in 2026!",
-  "seoDescription": "Discover how Greenhouse can boost your gardening success! Explore features, benefits, and get started today."
+  "seoDescription": "Discover how Greenhouse can boost your gardening success! Explore features, benefits, and get started today.",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.greenhouse.com/pricing"
 }

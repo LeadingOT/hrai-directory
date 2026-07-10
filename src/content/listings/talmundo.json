@@ -5,10 +5,9 @@
   "description": "Talmundo is a digital onboarding platform that uses AI to create interactive and engaging onboarding journeys. Its platform features gamified content, personalized learning paths, chatbot assistance, and automated task management. Talmundo helps organizations reduce time-to-productivity for new hires while ensuring consistent delivery of company culture and knowledge.",
   "category": "Onboarding",
   "subcategory": "Digital Onboarding",
-  "url": "https://talmundo.com",
+  "url": "https://talentech.com/talmundo/",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$8/user/mo"
+    "model": "paid"
   },
   "features": [
     "Gamified onboarding journeys",
@@ -41,5 +40,8 @@
     "engagement"
   ],
   "seoTitle": "Talmundo: Transform Your Onboarding Experience in 2026",
-  "seoDescription": "Discover how Talmundo's AI-driven onboarding can captivate new hires. Unlock seamless integration today!"
+  "seoDescription": "Discover how Talmundo's AI-driven onboarding can captivate new hires. Unlock seamless integration today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://talentech.com/pricing/"
 }

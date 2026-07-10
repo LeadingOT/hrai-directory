@@ -5,10 +5,9 @@
   "description": "TINYpulse provides real-time, AI-driven pulse surveys and employee feedback analytics that help HR teams quickly identify and act on workforce concerns. Its AI analyzes open-ended responses to detect sentiment trends, predict engagement risks, and surface emerging issues before they become problems. TINYpulse makes it easy to gather continuous feedback without survey fatigue.",
   "category": "Employee Engagement",
   "subcategory": "Pulse Surveys",
-  "url": "https://www.tinypulse.com",
+  "url": "https://www.webmdhealthservices.com/wellness-corporate-solutions-webmd-health-services/engagement-feedback/",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$5/user/mo"
+    "model": "paid"
   },
   "features": [
     "AI sentiment analysis",
@@ -41,5 +40,8 @@
     "recognition"
   ],
   "seoTitle": "TINYpulse: Transform Employee Feedback in 2026 | Our Insights",
-  "seoDescription": "Discover how TINYpulse's AI-driven insights enhance workplace morale. Explore features that'll boost team engagement today!"
+  "seoDescription": "Discover how TINYpulse's AI-driven insights enhance workplace morale. Explore features that'll boost team engagement today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.webmdhealthservices.com/wellness-corporate-solutions-webmd-health-services/engagement-feedback/?tinypulseredirect=1"
 }

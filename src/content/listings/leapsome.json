@@ -8,7 +8,7 @@
   "url": "https://www.leapsome.com",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$8/user/mo"
+    "startingPrice": "$199/mo"
   },
   "features": [
     "AI review copilot",
@@ -41,5 +41,8 @@
     "okr"
   ],
   "seoTitle": "Leapsome: Transform Your Team's Performance in 2026!",
-  "seoDescription": "Unlock potential with Leapsome's AI tools! Discover its unique benefits and how it can elevate your team's performance. Explore now!"
+  "seoDescription": "Unlock potential with Leapsome's AI tools! Discover its unique benefits and how it can elevate your team's performance. Explore now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.leapsome.com/pricing"
 }

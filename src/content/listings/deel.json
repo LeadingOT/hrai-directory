@@ -7,7 +7,7 @@
   "subcategory": "Global Payroll",
   "url": "https://www.deel.com",
   "pricing": {
-    "model": "freemium",
+    "model": "paid",
     "startingPrice": "$49/contractor/mo"
   },
   "features": [
@@ -41,5 +41,8 @@
     "remote-work"
   ],
   "seoTitle": "Deel: Is This the Ultimate Global Payroll Solution in 2026?",
-  "seoDescription": "Discover how Deel simplifies global payroll and compliance. Ready to transform your distributed team? Explore now!"
+  "seoDescription": "Discover how Deel simplifies global payroll and compliance. Ready to transform your distributed team? Explore now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.deel.com/pricing/"
 }

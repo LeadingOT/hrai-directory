@@ -7,8 +7,7 @@
   "subcategory": "HCM",
   "url": "https://www.paycor.com",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$99/mo + $6/employee"
+    "model": "paid"
   },
   "features": [
     "AI-powered payroll",
@@ -41,5 +40,8 @@
     "smb"
   ],
   "seoTitle": "Paycor 2026: Streamline HR & Payroll with AI Power",
-  "seoDescription": "Discover how Paycor enhances your HR and payroll processes in 2026. Try it now for seamless management!"
+  "seoDescription": "Discover how Paycor enhances your HR and payroll processes in 2026. Try it now for seamless management!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.paycor.com/plans-pricing/"
 }

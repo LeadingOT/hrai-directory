@@ -7,8 +7,8 @@
   "subcategory": "Recognition & Rewards",
   "url": "https://bonusly.com",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$2/user/mo"
+    "model": "freemium",
+    "startingPrice": "$3/user/mo"
   },
   "features": [
     "Peer-to-peer recognition",
@@ -41,5 +41,8 @@
     "small-business"
   ],
   "seoTitle": "Bonusly: The Ultimate Employee Recognition Tool of 2026 | Is It Right for You?",
-  "seoDescription": "Discover Bonusly’s unique rewards system that boosts team morale! Explore its benefits today—can it transform your workplace culture?"
+  "seoDescription": "Discover Bonusly’s unique rewards system that boosts team morale! Explore its benefits today—can it transform your workplace culture?",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://bonusly.com/pricing"
 }

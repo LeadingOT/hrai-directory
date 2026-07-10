@@ -8,7 +8,7 @@
   "url": "https://www.sparkhire.com",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$149/mo"
+    "startingPrice": "$249/mo"
   },
   "features": [
     "One-way video interviews",
@@ -41,5 +41,8 @@
     "small-business"
   ],
   "seoTitle": "Spark Hire: Transform Your Hiring in 2026 | Unbiased Insights",
-  "seoDescription": "Discover how Spark Hire's AI video interviewing can streamline your hiring process. Maximize efficiency today!"
+  "seoDescription": "Discover how Spark Hire's AI video interviewing can streamline your hiring process. Maximize efficiency today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.sparkhire.com/pricing/"
 }
