@@ -17,9 +17,9 @@ export async function getStaticPaths() {
   }
 
   return listings.map((listing) => {
-    const alternatives = byCategory[listing.data.category].filter(
+    const alternatives = (byCategory[listing.data.category].filter(
       (l) => l.data.slug !== listing.data.slug
-    );
+    )).sort((a, b) => { const rv = (x) => { const d = x && x.data ? x.data : x; const r = d ? d.rating : 0; return typeof r === 'number' ? r : (r && r.overall) || 0; }; return rv(b) - rv(a); });
     return {
       params: { slug: listing.data.slug },
       props: { tool: listing.data, alternatives: alternatives.map((a) => a.data) },
