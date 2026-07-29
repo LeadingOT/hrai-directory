@@ -8,9 +8,10 @@ interface Props {
   canonical?: string;
   ogImage?: string;
   schema?: object;
+  noindex?: boolean;
 }
 
-const { title, description, canonical, ogImage, schema } = Astro.props;
+const { title, description, canonical, ogImage, schema, noindex } = Astro.props;
 const siteUrl = import.meta.env.SITE || 'https://hrai.tools';
 const canonicalURL = canonical || new URL(Astro.url.pathname, siteUrl).href;
 ---
@@ -24,6 +25,7 @@ const canonicalURL = canonical || new URL(Astro.url.pathname, siteUrl).href;
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
 
     <!-- Open Graph -->
     <meta property="og:title" content={title} />

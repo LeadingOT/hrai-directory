@@ -1,0 +1,7 @@
+{
+  "generated": "2026-07-29",
+  "rule": "28d impressions>=3 or clicks>=1",
+  "keep": [
+    "darwinbox"
+  ]
+}
